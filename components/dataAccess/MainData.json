@@ -1,0 +1,69 @@
+{
+    "researchIntrest": [
+        {
+            "title": "Nucleo Mitochondrial Communicome",
+            "image": "/img/research/e1.jpg",
+            "description": "The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases."
+        },
+        {
+            "title": "DNA damage and Heart disease",
+            "image": "/img/research/e2.jpg",
+            "description": "Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents, develop disabling or life-threatening age- related diseases compared to their siblings."
+        },
+        {
+            "title": "Genotoxic stress response in post-mitotic cells",
+            "image": "/img/research/e2.jpg",
+            "description": "Replicative cells respond to DNA damage with cell fate decisions such as cell cycle arrest, cellular senescence or apoptosis."
+        }
+    ],
+    "publications": [
+        {
+            "title": "Exonic variants in aging-related genes are predictive of phenotypic aging status",
+            "author": "Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*",
+            "journal": "Frontiers in Genetics (in press, 2019)"
+        },
+        {
+            "title": "Tissue specificity of senescent cell accumulation during physiological and accelerated aging of mice",
+            "author": "Yousefzadeh MJ*, Zhao J*, Bukata C, Wade EA, McGowan SJ, Angelini L, Bank MP, Gurkar AU, McGuckian CA, Calubag M, Kato JI, Burd CE, Robbins PD and Niedernhofer LJ",
+            "journal": "Aging Cell (accepted, 2019)"
+        },
+        {
+            "title": "Cellular Senescence: The Trojan Horse in Chronic Lung Diseases",
+            "author": "Hamsanathan S, Alder JK, Sellares J, Rojas M, Gurkar AU, Mora AL",
+            "journal": "Am J Respir Cell Mol Biol"
+        }
+    ],
+    "team": [
+        {
+            "name": "Aditi Gurkar",
+            "title": "Principal Investigator",
+            "image": "/img/profile-pic/aditi.jpg",
+            "Description": "Aditi U. Gurkar is an Assistant Professor in the Aging Institute, Division of Geriatric Medicine at the University of Pittsburgh. I believe that aging is one true mystery that surrounds us. Aging is inescapable and unfortunately the principal risk factor for a number of diseases including cancer, heart disease and Alzheimer disease (AD)."
+        },
+        {
+            "name": "Shruthi Hamsanathan",
+            "title": "Research Scientist",
+            "image": "/img/profile-pic/Shruthi_H.jpg",
+            "Description": "My research interest has always been towards understanding complex biological mechanisms. I am particularly fascinated by transport mechanisms occurring at biological membranes. I find this as an interesting challenge for a cell, as it should maintain the membrane integrity while it transports proteins or other biomolecules across the membrane for survival."
+        },
+        {
+            "name": "Lucile Marchal",
+            "title": "",
+            "image": "/img/profile-pic/Lucile.jpg",
+            "Description": "I have always been interested in biology and had the chance to study biochemistry, cellular biology and physiology at the University of Besançon (France) during my B.S. equivalent. I then joined the bioengineering program of the Polytech'Nice Engineering School of the University of Nice (France), where I learned more about biotechnologies and pharmacology."
+        },
+        {
+            "name": "Mohamad Nayal",
+            "title": "",
+            "image": "/img/profile-pic/mo.jpg",
+            "Description": "My name Mo Nayal and I am excited to be joining Dr. Aditi Gurkar's lab at the Aging Institute! I'm originally from New Jersey but have lived in Philadelphia for the past 7 years where I attended Drexel University and worked at the University Pennsylvania's Gene Therapy Program."
+        },
+        {
+            "name": "Austin Sims",
+            "title": "",
+            "image": "/img/profile-pic/austin.jpg",
+            "Description": "My name Mo Nayal and I am excited to be joining Dr. Aditi Gurkar's lab at the Aging Institute! I'm originally from New Jersey but have lived in Philadelphia for the past 7 years where I attended Drexel University and worked at the University Pennsylvania's Gene Therapy Program."
+        }
+    ]
+
+}
