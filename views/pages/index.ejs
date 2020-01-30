@@ -61,45 +61,21 @@ style='background-image:url("img/bg/bg3.jpg")'>
   </div>
 </div>
 <div class='grid-x medium-up-3 grid-padding-x grid-container grid-padding-y add-padd'  data-equalizer>
-  <div class='cell'>
-    <div class='my-card'>
-      <div 
-        class='card-img'
-        style='background-image: url("img/research/nucleo_mitochondrial_communicome-aditi_gurkar.jpg");'
-      ></div>
-      <h4>Nucleo Mitochondrial Communicome</h4>
-      <p>
-        The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases.
-      </p>
-      <button class="hollow button" href="#">Read More</button>
+  <% for (let i = 0; i < 3; i++) { %>
+    <div class='cell'>
+      <div class='my-card'>
+        <div 
+          class='card-img'
+          style='background-image: url("<%=results.researchIntrest[i].image %>");'
+        ></div>
+        <h4><%=results.researchIntrest[i].title %></h4>
+        <p>
+          <%=results.researchIntrest[i].description %>
+        </p>
+        <button class="hollow button" href="#">Read More</button>
+      </div>
     </div>
-  </div>
-  <div class='cell'>
-    <div class='my-card'>
-      <div 
-        class='card-img'
-        style='background-image: url("img/research/heart.jpg");'
-      ></div>
-      <h4>DNA damage and Heart disease</h4>
-      <p>
-        Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents, develop disabling or life-threatening age- related diseases compared to their siblings.
-      </p>
-      <button class="hollow button" href="#">Read More</button>
-    </div>
-  </div>
-  <div class='cell'>
-    <div class='my-card'>
-      <div 
-        class='card-img'
-        style='background-image: url("img/research/post_mitotic.jpg");'
-      ></div>
-      <h4>Genotoxic stress response in post-mitotic cells</h4>
-      <p>
-        Replicative cells respond to DNA damage with cell fate decisions such as cell cycle arrest, cellular senescence or apoptosis.
-      </p>
-      <button class="hollow button" href="#">Read More</button>
-    </div>
-  </div>
+  <% } %>
 </div>
 
 <div
@@ -116,36 +92,18 @@ style='background-image:url("img/bg/bg4.jpg")'>
     <h3>Recent Publications</h3>
   </div>
   <div class='grid-x medium-up-3'>
-    <div class='cell'>
-      <div class='my-card'>
-        <h4 class='publication-heading'>
-          Exonic variants in aging-related genes are predictive of phenotypic aging status
-        </h4>
-        <h6 class='publication-author'>Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*</h6>
-        <p class='publiction-journel'>Frontiers in Genetics (in press, 2019)</p>
-        <button class="hollow button" href="#">Read More</button>
+    <% for (let i = 0; i < 3; i++) { %>
+      <div class='cell'>
+        <div class='my-card'>
+          <h4 class='publication-heading'>
+            <%=results.publications[i].title %>
+          </h4>
+          <h6 class='publication-author'><%=results.publications[i].author %></h6>
+          <p class='publiction-journel'><%=results.publications[i].journal %></p>
+          <button class="hollow button" href="#">Read More</button>
+        </div>
       </div>
-    </div>
-    <div class='cell'>
-      <div class='my-card'>
-        <h4 class='publication-heading'>
-          Exonic variants in aging-related genes are predictive of phenotypic aging status
-        </h4>
-        <h6 class='publication-author'>Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*</h6>
-        <p class='publiction-journel'>Frontiers in Genetics (in press, 2019)</p>
-        <button class="hollow button" href="#">Read More</button>
-      </div>
-    </div>
-    <div class='cell'>
-      <div class='my-card'>
-        <h4 class='publication-heading'>
-          Exonic variants in aging-related genes are predictive of phenotypic aging status
-        </h4>
-        <h6 class='publication-author'>Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*</h6>
-        <p class='publiction-journel'>Frontiers in Genetics (in press, 2019)</p>
-        <button class="hollow button" href="#">Read More</button>
-      </div>
-    </div>
+    <% } %>
   </div>
   <div class='cell'>
     <button class="hollow button" href="#">View All Publications </button>

@@ -2,17 +2,17 @@
     "researchIntrest": [
         {
             "title": "Nucleo Mitochondrial Communicome",
-            "image": "/img/research/e1.jpg",
+            "image": "img/research/heart.jpg",
             "description": "The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases."
         },
         {
             "title": "DNA damage and Heart disease",
-            "image": "/img/research/e2.jpg",
+            "image": "img/research/nucleo_mitochondrial_communicome-aditi_gurkar.jpg",
             "description": "Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents, develop disabling or life-threatening age- related diseases compared to their siblings."
         },
         {
             "title": "Genotoxic stress response in post-mitotic cells",
-            "image": "/img/research/e2.jpg",
+            "image": "img/research/post_mitotic.jpg",
             "description": "Replicative cells respond to DNA damage with cell fate decisions such as cell cycle arrest, cellular senescence or apoptosis."
         }
     ],
