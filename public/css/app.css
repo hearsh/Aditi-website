@@ -80,6 +80,13 @@ h1, h2, h3, h4, h5, h5 {
   font-size: 14px;
 }
 
+/* team styles */
+.team-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
 
 /* Misc Styles */
 .out-vc {
@@ -135,6 +142,9 @@ hr.center-ball:before {
 .web-pro-text {
   font-family: "ff-meta-serif-web-pro";
   font-size: 16px;
+}
+.border-right {
+  border-right: 1px solid #e6e6e6;
 }
 
 /* spacing styles */
