@@ -1,0 +1,143 @@
+/*
+Colors
+Blue: #32485c;
+*/
+
+/* Global Styles */
+p {
+  font-family: "ff-meta-serif-web-pro";
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h5 {
+  font-family: "brandon-grotesque";
+}
+
+/* Top bar styles */
+.top-bar-logo {
+	max-width: 350px;
+	width: 100%;
+}
+
+.top-bar-center {
+	border: 1px solid #f1f1f1;
+	border-top: none;
+	border-bottom: none;
+}
+
+.top-bar-link {
+	color: #32485c;
+}
+
+/* banners */
+.bg-img {
+  padding: 15vh 0;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+  position:relative;
+  flex-direction: 'row';
+  justify-items: 'center';
+}
+.bg-center-container {
+  max-width: 650px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #fff;
+  text-align: center;
+  margin: auto;
+}
+.bg-heading {
+  margin: 0px;
+  padding: 20px;
+  font-size: 2rem;
+  color: #222;
+  text-transform: uppercase;
+}
+
+/* Card styles */
+.my-card {
+  padding: 20px
+}
+.card-img {
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Publication styles */
+.publication-heading {
+  font-family: "ff-meta-serif-web-pro";
+}
+.publication-author {
+  font-family: "ff-meta-serif-web-pro";
+  font-style: italic;
+}
+.publiction-journel {
+  font-size: 14px;
+}
+
+
+/* Misc Styles */
+.out-vc {
+  display: table;
+          -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+.in-vc {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+          -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+
+.in-vc-right {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  max-width: 300px;
+  width:100%;
+  position: relative;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+hr.center-ball {
+  background: #439aa5;
+}
+hr.center-ball:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #439aa5;
+  display: inline-block;
+  border: 2px solid #439aa5;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  margin: 0 0 0 -3px;
+}
+.web-pro-text {
+  font-family: "ff-meta-serif-web-pro";
+  font-size: 16px;
+}
+
+/* spacing styles */
+.add-padd {
+  padding: 20px 0;
+}
