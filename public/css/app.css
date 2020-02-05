@@ -3,13 +3,20 @@ Colors
 Blue: #32485c;
 */
 
-/* Global Styles */
+/* Text Styles */
 p {
   font-family: "ff-meta-serif-web-pro";
   font-size: 16px;
 }
 h1, h2, h3, h4, h5, h5 {
   font-family: "brandon-grotesque";
+}
+
+.news-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 /* Top bar styles */
