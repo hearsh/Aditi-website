@@ -20,8 +20,22 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 /* Top bar styles */
+#header {
+  background-color: #fff;
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
+}
+.fixit {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  width: 100%;
+}
+
 .top-bar-logo {
-	max-width: 350px;
+	max-width: 250px;
 	width: 100%;
 }
 
@@ -37,7 +51,8 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 .header-logo {
-  
+  height: 50px;
+  max-width: 50px;
 }
 
 /* banners */
