@@ -18,19 +18,104 @@
     ],
     "publications": [
         {
-            "title": "Exonic variants in aging-related genes are predictive of phenotypic aging status",
-            "author": "Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*",
-            "journal": "Frontiers in Genetics (in press, 2019)"
+            "title": "Exonic variants in aging-related genes are predictive of phenotypic aging status.",
+            "author": "Breitbach ME, Greenspan­ S, Resnick NM, Perera S, Gurkar AU, Absher D*, Levine AS*.",
+            "journal": "Frontiers in Genetics (in press, 2019)."
         },
         {
-            "title": "Tissue specificity of senescent cell accumulation during physiological and accelerated aging of mice",
-            "author": "Yousefzadeh MJ*, Zhao J*, Bukata C, Wade EA, McGowan SJ, Angelini L, Bank MP, Gurkar AU, McGuckian CA, Calubag M, Kato JI, Burd CE, Robbins PD and Niedernhofer LJ",
-            "journal": "Aging Cell (accepted, 2019)"
+            "title": "Tissue specificity of senescent cell accumulation during physiological and accelerated aging of mice.",
+            "author": "Yousefzadeh MJ*, Zhao J*, Bukata C, Wade EA, McGowan SJ, Angelini L, Bank MP, Gurkar AU, McGuckian CA, Calubag M, Kato JI, Burd CE, Robbins PD and Niedernhofer LJ.",
+            "journal": "Aging Cell (accepted, 2019)."
         },
         {
-            "title": "Cellular Senescence: The Trojan Horse in Chronic Lung Diseases",
-            "author": "Hamsanathan S, Alder JK, Sellares J, Rojas M, Gurkar AU, Mora AL",
-            "journal": "Am J Respir Cell Mol Biol"
+            "title": "Cellular Senescence: The Trojan Horse in Chronic Lung Diseases.",
+            "author": "Hamsanathan S, Alder JK, Sellares J, Rojas M, Gurkar AU, Mora AL.",
+            "journal": "Am J Respir Cell Mol Biol."
+        },
+        {
+            "title": "ERCC1-deficient cells and mice are hypersensitive to lipid peroxidation.",
+            "author": "Czerwińska J, Nowak M, Wojtczak P, Dziuban-Lech D, Cieśla JM, Kołata D, Gajewska B, Barańczyk-Kuźma A, Robinson AR, Shane HL, Gregg SQ, Rigatti LH, Yousefzadeh MJ, Gurkar AU., McGowan SJ, Kosicki K, Bednarek M, Zarakowska E, Gackowski D, Oliński R, Speina E, Niedernhofer LJ, Tudek B.",
+            "journal": "Free Radical Biol Med."
+        },
+        {
+            "title": "Dysregulation of DAF-16/FOXO3-mediated stress responses accelerates oxidative DNA damage induced aging.",
+            "author": "Gurkar AU., Robinson A.R., Cui Y., Li X., Allani S.K., Webster A., Muravia M., Fallahi M., Weissbach H., Robbins P.D., Wang Y., Kelley E.E., St. Croix C.M., Niedernhofer L.J. and Gill M.S.",
+            "journal": "Redox Biol."
+        },
+        {
+            "title": "Methods to quantify the NF-κB pathway during senescence.",
+            "author": "Zhang L., Zhao J., Gurkar AU., Niedernhofer LJ., and Robbins PD.",
+            "journal": "Cell Senescence - Methods in Molecular Biology."
+        },
+        {
+            "title": "Spontaneous DNA damage to the nuclear genome promotes senescence and aging.",
+            "author": "Robinson A.R., Yousefzadeh M.J., Rozgaja T.A., Wang J., Li X. , Tilstra J.S., Feldman C. H., Gregg S. Q., Johnson C.H., Skoda E.M., Frantz M-C., Bell-Temin H., Pope-Varsalona H., Gurkar AU., Nasto L.A., Robinson R.A., Fuhrmann-Stroissnigg H., Czerwinska J., McGowan S.J., Cantu-Medellin N., Harris J.B., Maniar S., Ross M.A., Trussoni C.E., LaRusso N.F., Cifuentes-Pagano E., Pagano P.J., Tudek B., Vo N., Rigatti L.H., Opresko P.L., Stolz D.B., Watkins S.C., Burd C.E., St. Croix C.M., Siuzdak G., Yates N.A., Robbins P.D., Wang Y., Wipf P., Kelley E.E.† and Niedernhofer L.J.†",
+            "journal": "Redox Biol."
+        },
+        {
+            "title": "Nuclear instability and aging.",
+            "author": "Niedernhofer L.J., Gurkar AU., Wang Y., Vijg J., Hoeijmakers J. and Robbins P.D.",
+            "journal": "Redox Biol."
+        },
+        {
+            "title": "Synergistic treatment of TS.",
+            "author": "Gurkar AU.* and Finkel T. (*corresponding author)",
+            "journal": "Oncotarget News."
+        },
+        {
+            "title": "Quantitative Analysis of Cellular Senescence in Culture and In Vivo.",
+            "author": "Zhao J, Fuhrmann-Stroissnigg H, Gurkar AU., Flores RR, Dorronsoro A, Stolz DB, St Croix CM, Niedernhofer LJ, Robbins PD.",
+            "journal": "Curr Protoc Cytom."
+        },
+        {
+            "title": "The role of DNA damage in longevity-lessons from the nematode.",
+            "author": "Gurkar, AU.* Gill M.S. and Niedernhofer L.J. (*corresponding author)",
+            "journal": "Book: C. elegans and its contribution to longevity and ageing research M. S. Gill and A. Olsen ed (Springer) *corresponding author"
+        },
+        {
+            "title": "Comparison of mice with accelerated aging caused by distinct mechanisms.",
+            "author": "Gurkar AU. and Niedernhofer LJ.",
+            "journal": "Exp Gerontol."
+        },
+        {
+            "title": "Small-Molecule Reactivation of Mutant p53 to Wild-Type- like p53 through the p53-Hsp40 Regulatory Axis.",
+            "author": "Hiraki M, Hwang SY, Cao S, Ramadhar TR, Byun S, Yoon KW, Lee JH, Chu K, Gurkar AU, Kolev V, Zhang J, Namba T, Murphy ME, Newman DJ, Mandinova A, Clardy J, Lee SW.",
+            "journal": "Chem Biol."
+        },
+        {
+            "title": "The Achilles' heel of senescent cells: from transcriptome to senolytic drugs.",
+            "author": "Zhu Y, Tchkonia T, Pirtskhalava T, Gower AC, Ding H, Giorgadze N, Palmer AK, Ikeno Y, Hubbard GB, Lenburg M, O'Hara SP, LaRusso NF, Miller JD, Roos CM, Verzosa GC, LeBrasseur NK, Wren JD, Farr JN, Khosla S, Stout MB, McGowan SJ, Fuhrmann-Stroissnigg H, Gurkar AU, Zhao J, Colangelo D, Dorronsoro A, Ling YY, Barghouthy AS, Navarro DC, Sano T, Robbins PD, Niedernhofer LJ, Kirkland JL.",
+            "journal": "Aging Cell."
+        },
+        {
+            "title": "Identification of ROCK1 kinase as a critical regulator of Beclin1-mediated autophagy during metabolic stress.",
+            "author": "Gurkar AU, Chu K, Raj L, Bouley R, Lee SH, Kim YB, Dunn SE, Mandinova A, Lee SW.",
+            "journal": "Nat Commun."
+        },
+        {
+            "title": "DNA repair and Cancer. Madhusudan S, Wilson III DM, editors. Boca Raton, FL: CRC Press; Chapter 12, p53 in DNA Damage, Repair and Cancer Therapeutics;",
+            "author": "Gurkar AU, Chu K, Lee SW.",
+            "journal": "p.372-426. 679p."
+        },
+        {
+            "title": "c-Jun N-terminal kinase-mediated Rad18 phosphorylation facilitates Polη recruitment to stalled replication forks.",
+            "author": "Barkley LR, Palle K, Durando M, Day TA, Gurkar A, Kakusho N, Li J, Masai H, Vaziri C.",
+            "journal": "Biol Cell."
+        },
+        {
+            "title": "Selective killing of cancer cells by a small molecule targeting the stress response to ROS.",
+            "author": "Raj L, Ide T, Gurkar AU, Foley M, Schenone M, Li X, Tolliday NJ, Golub TR, Carr SA, Shamji AF, Stern AM, Mandinova A, Schreiber SL, Lee SW.",
+            "journal": "Nature."
+        },
+        {
+            "title": "Rad18-mediated translesion synthesis of bulky DNA adducts is coupled to activation of the Fanconi anemia DNA repair pathway.",
+            "author": "Song IY, Palle K, Gurkar A, Tateishi S, Kupfer GM, Vaziri C.",
+            "journal": "J Biol Chem."
+        },
+        {
+            "title": "Interstrain transfer of the large pathogenicity island (PAPI-1) of Pseudomonas aeruginosa.",
+            "author": "Qiu X, Gurkar AU, Lory S.",
+            "journal": "Proc Natl Acad Sci U S A."
         }
     ],
     "team": [

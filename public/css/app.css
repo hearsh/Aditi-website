@@ -32,11 +32,23 @@ h1, h2, h3, h4, h5, h5 {
   z-index: 9999;
   top: 0px;
   width: 100%;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .top-bar-logo {
 	max-width: 250px;
-	width: 100%;
+  width: 100%;
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
+}
+
+#header-logo {
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
 }
 
 .top-bar-center {
@@ -51,8 +63,12 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 .header-logo {
-  height: 50px;
+  max-height: 50px;
   max-width: 50px;
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
 }
 
 /* banners */

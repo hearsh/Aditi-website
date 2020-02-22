@@ -8,14 +8,14 @@ function checkHeader(scroll_pos) {
     const myHeader = document.getElementById('header');
     myHeader.className = 'fixit';
     const logo = document.getElementById('header-logo');
-    logo.src = './img/logos/small_logo.png';
     logo.className = 'header-logo';
+    logo.src = './img/logos/small_logo.png';
   } else {
     const myHeader = document.getElementById('header');
     myHeader.className = '';
     const logo = document.getElementById('header-logo');
-    logo.src = './img/logos/logo.png';
     logo.className = 'top-bar-logo';
+    logo.src = './img/logos/logo.png';
   }
 }
 
