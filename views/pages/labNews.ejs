@@ -1,0 +1,33 @@
+<% include ../partials/head %>
+<% include ../partials/header %>  
+<div
+class='bg-img'
+style='background-image:url("img/bg/bg1.jpg")'>
+  <div class='bg-center-container'>
+    <h1 class='bg-heading'>
+      Lab News
+    </h1>
+  </div>
+</div>
+<div class='grid-x grid-padding-x grid-container medium-up-3 grid-padding-y add-padd' >
+  <% for (let i = 0; i < results.length; i++) { %>
+    <div class='cell'>
+      <div class='my-card'>
+        <div 
+          class='card-img'
+          style='background-image: url("<%=results.news[i].image %>");'
+        ></div>
+        <h4><%=results[i].name %></h4>
+        <p class="news-text">
+          <%=results[i].description %>
+        </p>
+      </div>
+    </div>
+  <% } %>
+</div>
+
+
+
+<% include ../partials/footer %>
+<% include ../partials/tail %>
+  

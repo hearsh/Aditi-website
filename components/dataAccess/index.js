@@ -26,4 +26,12 @@ dataAccess.prototype.getLabFun = async function () {
 	});
 }
 
+dataAccess.prototype.getPublications = function () {
+	return data.publications;
+}
+
+dataAccess.prototype.getNews = function () {
+	return data.news;
+}
+
 module.exports = new dataAccess();

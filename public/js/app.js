@@ -4,7 +4,7 @@ let ticking = false;
 
 function checkHeader(scroll_pos) {
   console.log(scroll_pos);
-  if (scroll_pos > 50) {
+  if (scroll_pos > 100) {
     const myHeader = document.getElementById('header');
     myHeader.className = 'fixit';
     const logo = document.getElementById('header-logo');

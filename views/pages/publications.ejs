@@ -10,6 +10,24 @@ style='background-image:url("img/bg/bg1.jpg")'>
   </div>
 </div>
 <div class='grid-x grid-container add-padd' >
+  <div class="timeline">
+    <% for(let i = 0; i < results.length; i++){
+      let direction = '';
+      if (i%2 !== 0) {
+        direction = 'right';
+      }  
+    %>
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <i class="fa fi-book"></i>
+        </div>
+        <div class="timeline-content <%= direction %>">
+          <h2 class="timeline-content-date"><%= results[i].title %></h2>
+          <p><%= results[i].author %> <%= results[i].journal %></p>
+        </div>
+      </div>
+    <% } %>
+  </div>
 </div>
 
 

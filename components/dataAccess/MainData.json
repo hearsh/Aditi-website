@@ -165,7 +165,108 @@
             "name": "Testimonial from our summer Undergrad from Oxford University, Roshan K.",
             "image": "/img/news/Roshan.jpg",
             "description": "Over 8 weeks this summer, I worked on an independent research project in the Gurkar Lab at the Aging Institute. This was my first experience of research, and so having Dr Gurkar as my supervisor made all the difference in the world. She led me through the stages of planning out my project, data collection, and even data analysis, and the skills and knowledge which I gained from my time at the lab have been absolutely invaluable back at university in Oxford. Dr Gurkar and the whole team at the Gurkar lab are all lovely people and were very enthusiastic in welcoming me to Pittsburgh and to their lab. They were all very happy to help me with the details of my lab work and the different assays which I carried out, and I am really happy that I had the chance to know everyone there over my summer! Working at the Aging Institute, I had the opportunity to listen to fascinating talks from experts in the field of aging, on subjects such as novel senolytic drugs and telomere biology. However, my most memorable experiences of the summer included the time our lab spent together, including our lab picnic in Oakland at the end of summer, weekly lab meetings and journal club (always sure to feature a sweet treat!), and the lab potluck we had right before I left. I would thoroughly recommend the Gurkar lab to any students who would like to gain research experience in a fun and welcoming environment." 
+        },
+        {
+            "name": "Worm Meeting 2019",
+            "image": "/img/news/eleganceConference.png",
+            "description": "Shruti's first Worm Meeting in LA." 
+        },
+        {
+            "name": "AGE Meeting",
+            "image": "/img/news/ageMeeting.png",
+            "description": "Looking forward to the AGE Meeting in SF." 
+        },
+        {
+            "name": "External Speaker at Worm Club",
+            "image": "/img/news/wormClubSpeaker.jpg",
+            "description": "So excited to host Dr. Matt Gill for worm club this month." 
+        },
+        {
+            "name": "Come join us for an exciting joint seminar on biology of Aging!.",
+            "image": "/img/news/University_of_Pittsburgh_seal.svg.png",
+            "description": "" 
+        },
+        {
+            "name": "Our very own Austin Sims gets to go to FrA2R program",
+            "image": "/img/news/austin.jpg",
+            "description": "Thank you to Frontiers for alzheimer's research." 
+        },
+        {
+            "name": "Congratulations Shruthi! Very first review from the Gurkar Lab.",
+            "image": "/img/news/march19News.png",
+            "description": "It was an awesome team effort with all out collaborators." 
+        },
+        {
+            "name": "Welcome Mo to the Gurkar Lab, glad to have you be a part of the team.",
+            "image": "/img/news/mo.jpg",
+            "description": "" 
+        },
+        {
+            "name": "Aditi receives first prize at the Aging Research Day 2018",
+            "image": "/img/news/awardForAging.png",
+            "description": "" 
+        },
+        {
+            "name": "Pepper Retreat 2018",
+            "image": "/img/news/pepper_retreat.jpg",
+            "description": "Very first time to present our findings about human aging!" 
+        },
+        {
+            "name": "Diwali 2018",
+            "image": "/img/news/diwali01.jpg",
+            "description": "Diwali 2018" 
+        },
+        {
+            "name": "Cold Spring Harbor - Mechanisms of Aging",
+            "image": "/img/news/csh.jpg",
+            "description": "Such an excellent meeting! We got an opportunity to present some of our work at this awesome meeting." 
+        },
+        {
+            "name": "Aging, Metabolism, Stress, Pathogenesis and small RNAs' in C. elegans",
+            "image": "/img/news/meeting.jpg",
+            "description": "What a fantastic meeting" 
+        },
+        {
+            "name": "New Funding",
+            "image": "/img/news/NSC-Logo.jpg",
+            "description": "Thank you to The Oklahoma Nathan Shock Center for pilot funding awarded to the Gurkar Lab." 
+        },
+        {
+            "name": "FrARR 2018 in Xavier University, New Orleans",
+            "image": "/img/news/FrARR.jpg",
+            "description": "" 
+        },
+        {
+            "name": "DOM Research Day Poster Award",
+            "image": "/img/news/DOM_Research.jpg",
+            "description": "." 
+        },
+        {
+            "name": "Aging Institute Pilot funding",
+            "image": "/img/news/AgingInstitute_Web.jpg",
+            "description": "Thank you to the Aging Institute (UPMC) for pilot funding awarded to the Gurkar/Opresko Labs" 
+        },
+        {
+            "name": "Pepper Center Pilot funding",
+            "image": "/img/news/runners.jpg",
+            "description": "Thank you to the Pepper Center for pilot funding awarded to the Gurkar lab (collaborators: Drs. Greenspan, Resnick, Perera, Narasimhan)" 
+        },
+        {
+            "name": "UPMC Aging Institute",
+            "image": "/img/news/action_news.jpg",
+            "description": "" 
+        },
+        {
+            "name": "Aging Institute study the biology of aging",
+            "image": "/img/news/aging2.jpg",
+            "description": "" 
+        },
+        {
+            "name": "Finally a functional lab",
+            "image": "/img/news/lab.jpg",
+            "description": "" 
         }
+
     ]
 
 }

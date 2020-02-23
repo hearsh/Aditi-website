@@ -22,9 +22,25 @@ router.get('/Aditi-Gurkar', function(req, res, next) {
 
 /* GET Publications page. */
 router.get('/Publications', function(req, res, next) {
-  const allData = dataAccess.getAllData();
+  const allData = dataAccess.getPublications();
   res.render('pages/publications', {
     title: 'Gurkar Lab | Publications',
+    results: allData
+  });
+});
+
+/* GET Research Interest page. */
+router.get('/research-interests', function(req, res, next) {
+  res.render('pages/researchInterests', {
+    title: 'Gurkar Lab | Research Intrest',
+  });
+});
+
+/* GET News page. */
+router.get('/news', function(req, res, next) {
+  const allData = dataAccess.getNews();
+  res.render('pages/labNews', {
+    title: 'Gurkar Lab | News',
     results: allData
   });
 });
