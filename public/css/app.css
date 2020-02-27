@@ -376,8 +376,22 @@ h1, h2, h3, h4, h5, h5 {
   padding: 20px 0px;
 }
 .tabs-title > a.my-reserach-tabs {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 20px 10px;
+  background: transparent;
+  color: #222;
+  -webkit-transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+    transition: all .50s ease-in-out;
+}
+
+.tabs.research-tabs-head {
+  border: none;
+}
+
+.tabs-content.research-tabs {
+  border: none;
 }
 
 /* Misc Styles */
@@ -437,6 +451,24 @@ hr.center-ball:before {
 }
 .border-right {
   border-right: 1px solid #e6e6e6;
+}
+.tab-first.is-active {
+  border-right: 1.5px solid #e6e6e6;
+  border-bottom: 1.5px solid #e6e6e6;
+  background-color: rgba(230, 228, 228, 0.1);
+}
+
+.tab-center.is-active {
+  border-right: 1.5px solid #e6e6e6;
+  border-left: 1.5px solid #e6e6e6;
+  border-bottom: 1.5px solid #e6e6e6;
+  background-color: rgba(230, 228, 228, 0.1);
+}
+
+.tab-last.is-active {
+  border-left: 1.5px solid #e6e6e6;
+  border-bottom: 1.5px solid #e6e6e6;
+  background-color: rgba(230, 228, 228, 0.1);
 }
 
 /* spacing styles */
