@@ -144,8 +144,10 @@ h1, h2, h3, h4, h5, h5 {
 /* Testimonials styles */
 
 .full-width-testimonial {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("https://unsplash.it/2000/1200/?image=1011");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("../img/bg/bg2.jpg");
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .full-width-testimonial-icon .quote-path {
@@ -206,6 +208,7 @@ h1, h2, h3, h4, h5, h5 {
   padding-bottom: 0;
   margin-bottom: 0.2em;
   font-size: 1.0em;
+  text-align: left;
 }
 
 .full-width-testimonial-section .full-width-testimonial-source-context {
@@ -216,6 +219,7 @@ h1, h2, h3, h4, h5, h5 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 0.8em;
+  text-align: left;
 }
 
 .full-width-testimonial-section .slick-slider {
@@ -231,6 +235,11 @@ h1, h2, h3, h4, h5, h5 {
 
 .full-width-testimonial-content {
   width: 100%;
+}
+.testimonial-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }
 
 /* Publications styles */
@@ -477,4 +486,7 @@ hr.center-ball:before {
 }
 .center {
   text-align: center;
+}
+.border-right {
+  border-right: 1px solid #f1f1f1;
 }
