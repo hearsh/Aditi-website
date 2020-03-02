@@ -1,11 +1,38 @@
 const data = require('./MainData.json');
 const fs = require('fs');
+const util = require('util');
 const imageGrid = `${__dirname}/../../public/img/Labfun/grid-images`;
+const readdir = util.promisify(fs.readdir);
+const imageformats = {
+	'jpg': true,
+	'png': true,
+	'jpeg': true
+}
 
+
+function searchFiles (files, dir) {
+	return files[dir] !== undefined;
+}
 function dataAccess () {
 	this.data = {
 		'results': null,
 	};
+}
+
+function checkForImg (img) {
+	const splitImg = img.split('.');
+	if (splitImg.length === 2) {
+		 return imageformats[splitImg[1].toLowerCase()];
+	}
+	return false
+}
+
+function createJson (array) {
+	let json = {};
+	for (let i = 0; i < array.length; i++) {
+		json[array[i]] = true;
+	}
+	return json;
 }
 
 dataAccess.prototype.getAllData = function () {
@@ -13,18 +40,29 @@ dataAccess.prototype.getAllData = function () {
 }
 
 dataAccess.prototype.getLabFun = async function () {
-	return new Promise((resolve, reject) => {
-		fs.readdir(imageGrid, (err, files) => {
-			if (err) {
-				console.log(`Error: ${err}`);
-				reject(null);
+	const returnData = [];
+	const files = await readdir(imageGrid);
+	const fileJson = createJson(files);
+	for(let i = 0; i < data.labFun.length; i++) {
+		if (searchFiles(fileJson, data.labFun[i].img)) {
+			const innerFiles = await readdir(`${imageGrid}/${data.labFun[i].img}`);
+			const finalImages = [];
+			for (let j = 0; j < innerFiles.length; j++) {
+				if (checkForImg(innerFiles[j])) {
+					finalImages.push(innerFiles[j]);
+				}
 			}
-			resolve({
-				images: files,
-			})
-		});
-	});
-}
+			returnData.push({
+				title: data.labFun[i].title,
+				images: finalImages,
+				dir: data.labFun[i].img
+			});
+		}
+	}
+	return {
+		labFun: returnData,
+	};
+};
 
 dataAccess.prototype.getPublications = function () {
 	return data.publications;

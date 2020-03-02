@@ -228,7 +228,7 @@
         },
         {
             "name": "FrARR 2018 in Xavier University, New Orleans",
-            "image": "/img/news/FrARR.jpg",
+            "image": "/img/news/FrARR.png",
             "description": "" 
         },
         {
@@ -262,6 +262,72 @@
             "description": "" 
         }
 
+    ],
+    "labFun": [
+        {
+            "title": "Happy Holidays with axe throwing, 2019!",
+            "img": "axeThrowing"
+        },
+        {
+            "title": "It has been so much fun hosting Ella and Roshan this summer!",
+            "img": "ellaRoshan"
+        },
+        {
+            "title": "Perfect day for a lab picnic.",
+            "img": "labPicnic"
+        },
+        {
+            "title": "Friday Lab Meeting are never boring!",
+            "img": "fridayMeeting"
+        },
+        {
+            "title": "Birthday Celebrations! Thank you for the wonderfun birthday cake",
+            "img": "birthdayAditi"
+        },
+        {
+            "title": "Summer Ice-Cream Social.",
+            "img": "icecreamSocial"
+        },
+        {
+            "title": "Celebrating Shruthi's birthday and Victor's farewell.",
+            "img": "birthdayShruti"
+        },
+        {
+            "title": "Aging Institute Winter Party",
+            "img": "winterParty"
+        },
+        {
+            "title": "Happy Birthday Lucile",
+            "img": "birthdayLuciel"
+        },
+        {
+            "title": "Worm club holiday party.",
+            "img": "wormClub"
+        },
+        {
+            "title": "Holiday party",
+            "img": "holiday"
+        },
+        {
+            "title": "Gurkar lab celebrates Diwali",
+            "img": "diwali"
+        },
+        {
+            "title": "YAY! Celebrating an 'ice cream' moment in the Gurkar Lab",
+            "img": "yay"
+        },
+        {
+            "title": "Tom, the lab mascot, hanging out in Madison for the C. elegans meeting!",
+            "img": "labCat"
+        },
+        {
+            "title": "Go pirates! The worm club attends Pirates baseball game.",
+            "img": "pirates"
+        },
+        {
+            "title": "Aging Institute winter party.",
+            "img": "winterParty"
+        }
     ]
 
 }

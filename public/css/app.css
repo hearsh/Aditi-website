@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h5 {
 /* Image Grid Styles */
 .my-grid-img {
   cursor: pointer;
+  margin-bottom: 0px;
 }
 .big-grid-img {
   padding: 20px;
@@ -140,6 +141,28 @@ h1, h2, h3, h4, h5, h5 {
 #img-show {
   margin: auto;
 }
+.my-grid-text {
+  text-align: center;
+  color: #32485c;
+}
+.arrow-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.arrow-div > .fi {
+  padding: 0px 10px;
+  cursor: pointer;
+  color: #32485c;
+  font-size: 25px;
+}
+.fun-img {
+  max-width: 250px;
+  max-height: 300px;
+  width: 100%;
+  height: 'auto';
+}
+
 
 /* Testimonials styles */
 

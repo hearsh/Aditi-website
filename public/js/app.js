@@ -1,9 +1,11 @@
 $(document).foundation()
 let last_known_scroll_position = 0;
 let ticking = false;
+let images = [];
+let imgCount = 0;
+let imageDir = '';
 
 function checkHeader(scroll_pos) {
-  console.log(scroll_pos);
   if (scroll_pos > 100) {
     const myHeader = document.getElementById('header');
     myHeader.className = 'fixit';
@@ -32,9 +34,38 @@ window.addEventListener('scroll', function(e) {
   }
 });
 
-const showThisImg = (img) => {
-  var popup = new Foundation.Reveal($('#my-img-modal'));
+const changeImageCount = (count) => {
+  imgCount = imgCount + count;
+  if (imgCount >= images.length) {
+    imgCount = 0
+  }
+   if (imgCount < 0) {
+    imgCount = images.length - 1;
+  }
+}
+
+const goNext = () => {
+  changeImageCount(+1);
+  changeImg();
+}
+
+const goPrev = () => {
+  changeImageCount(-1);
+  changeImg();
+}
+
+const changeImg = () => {
   const myDiv = document.getElementById('img-show');
-  myDiv.src = `img/Labfun/grid-images/${img}`;
-  popup.open();
+  myDiv.src = `img/Labfun/grid-images/${imageDir}/${images[imgCount]}`;
+}
+
+const showThisImg = (img, dir) => {
+  const imgarr = img.split(',');
+  if (imgarr.length) {
+    var popup = new Foundation.Reveal($('#my-img-modal'));
+    images = imgarr;
+    imageDir = dir;
+    changeImg();
+    popup.open();
+  }
 }

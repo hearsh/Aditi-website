@@ -39,6 +39,7 @@ router.get('/research-interests', function(req, res, next) {
 /* GET News page. */
 router.get('/news', function(req, res, next) {
   const allData = dataAccess.getNews();
+  console.log(allData);
   res.render('pages/labNews', {
     title: 'Gurkar Lab | News',
     results: allData
@@ -48,7 +49,6 @@ router.get('/news', function(req, res, next) {
 /* GET Lab Fun page. */
 router.get('/labfun', function(req, res, next) {
   dataAccess.getLabFun().then(allData => {
-    console.log(allData);
     res.render('pages/labFun', {
       title: 'Gurkar Lab | Lab Fun',
       results: allData
@@ -56,7 +56,7 @@ router.get('/labfun', function(req, res, next) {
   }).catch(err => {
     console.log(err);
     res.render('pages/labFun', {
-      title: 'Express',
+      title: 'Gurkar Lab | Lab Fun',
       results: null
     });
   })
