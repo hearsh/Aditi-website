@@ -5,7 +5,7 @@ class='bg-img'
 style='background-image:url("img/bg/bg1.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
-      Decoding the cellular responses to dna dammage that drive aging
+      Developing therapies to target the primary risk factor for all of these diseases, aging itself, is a promising yet challenging solution. The first step is to define the molecular mechanisms that drive aging. We believe that this will reveal novel therapeutic targets that can be further harnessed to extend healthy life.
     </h1>
   </div>
 </div>
@@ -46,7 +46,7 @@ style='background-image:url("img/bg/bg2.jpg")'>
   <div class='medium-6 large-6 cell out-vc'  data-equalizer-watch>
     <div class='in-vc'>
       <p class='web-pro-text'>
-        Aditi U. Gurkar is an Assistant Professor in the Aging Institute, Division of Geriatric Medicine at the University of Pittsburgh. I believe that aging is one true mystery that surrounds us. Aging is inescapable and unfortunately the principal risk factor for a number of diseases including cancer, heart disease and Alzheimer disease (AD). If we can therefore unlock this mystery at a molecular level, we could uncover the Fountain of Youth and live healthier, fuller lives.
+        Aditi U. Gurkar is an Assistant Professor in the Aging Institute, Division of Geriatric Medicine at the University of Pittsburgh. She recieved her Ph.D. at BU Medical school and her postodoctoral fellowship at MGH/Harvard Medical School and The Scripps Research Institute. She has long been interested in DNA damage induced rewiring of metabolic circuitry that drives age-related pathologies and how one can therapeutically target it to delay aging.
       </p>
       <a class="hollow button" href="./Aditi-Gurkar">Learn More About Aditi Gurkar </a>
     </div>
@@ -74,7 +74,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
         <p>
           <%=results.researchIntrest[i].description %>
         </p>
-        <a class="hollow button" href="./research-interests">Read More</a>
+        <a class="hollow button" href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">Read More</a>
       </div>
     </div>
   <% } %>

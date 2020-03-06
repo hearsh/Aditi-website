@@ -1,4 +1,34 @@
 {
+    "pages": [
+        {
+            "title": "About",
+            "link": "#about"
+        },
+        {
+            "title": "Research Interest",
+            "link": "#research"
+        },
+        {
+            "title": "Publication",
+            "link": "#publications"
+        },
+        {
+            "title": "Team",
+            "link": "#team"
+        },
+        {
+            "title": "News",
+            "link": "#news"
+        },
+        {
+            "title": "Lab Culture",
+            "link": "/labfun"
+        },
+        {
+            "title": "Contact",
+            "link": "#contact"
+        }
+    ],
     "researchIntrest": [
         {
             "title": "Nucleo Mitochondrial Communicome",

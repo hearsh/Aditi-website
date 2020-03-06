@@ -2,7 +2,7 @@
 <% include ../partials/header %>  
 <div
 class='bg-img'
-style='background-image:url("img/bg/bg3.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg3.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Research Interestes
@@ -12,15 +12,15 @@ style='background-image:url("img/bg/bg3.jpg")'>
 <div class='grid-x grid-container add-padd' >
   <div class='cell'>
     <ul class="tabs research-tabs-head" data-responsive-accordion-tabs="tabs small-accordian medium-accordion large-tabs" id="example-tabs">
-      <li class="tabs-title is-active tab-first"><a href="#panel1c" class='my-reserach-tabs' aria-selected="true">Nucleo Mitochondrial Communicome</a></li>
-      <li class="tabs-title tab-center"><a class='my-reserach-tabs' href="#panel2c">DNA damage and Heart disease</a></li>
-      <li class="tabs-title tab-last"><a class='my-reserach-tabs' href="#panel3c">Genotoxic stress response in post-mitotic cells</a></li>
+      <li class="tabs-title <% if(tab === 'Nucleo Mitochondrial Communicome'.replace(/\s/g, '_')) { %> is-active <% } %> tab-first"><a href="#panel1c" class='my-reserach-tabs' aria-selected="true">Nucleo Mitochondrial Communicome</a></li>
+      <li class="tabs-title <% if(tab === 'DNA damage and Heart disease'.replace(/\s/g, '_')) { %> is-active <% } %> tab-center"><a class='my-reserach-tabs' href="#panel2c">DNA damage and Heart disease</a></li>
+      <li class="tabs-title <% if(tab === 'Genotoxic stress response in post-mitotic cells'.replace(/\s/g, '_')) { %> is-active <% } %> tab-last"><a class='my-reserach-tabs' href="#panel3c">Genotoxic stress response in post-mitotic cells</a></li>
     </ul>
     
     <div class="tabs-content research-tabs" data-tabs-content="example-tabs">
-      <div class="tabs-panel is-active" id="panel1c">
+      <div class="tabs-panel <% if(tab === 'Nucleo Mitochondrial Communicome'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel1c">
         <div class="center">
-          <img src="img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
+          <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
         </div>
         <p>The central hypothesis that guides our&nbsp;research is that stochastic, endogenous nuclear DNA damage
           alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative
@@ -35,9 +35,9 @@ style='background-image:url("img/bg/bg3.jpg")'>
           translation of new knowledge to human aging.
         </p>
       </div>
-      <div class="tabs-panel" id="panel2c">
+      <div class="tabs-panel <% if(tab === 'DNA damage and Heart disease'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel2c">
         <div class="center">
-          <img src="img/research/e2.jpg" class='research-img' alt="DNA damage &amp; Heart disease">
+          <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e2.jpg" class='research-img' alt="DNA damage &amp; Heart disease">
         </div>
         <p>
           Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent
@@ -49,7 +49,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
           uncover crucial components essential for defense against such genotoxic stress.
         </p>
       </div>
-      <div class="tabs-panel" id="panel3c">
+      <div class="tabs-panel <% if(tab === 'Genotoxic stress response in post-mitotic cells'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel3c">
         <p>Replicative cells respond to DNA damage with cell fate decisions such as cell cycle arrest, cellular
           senescence or apoptosis. However, how mitotic cells respond to such nuclear genotoxic stress in not
         well understood.</p>

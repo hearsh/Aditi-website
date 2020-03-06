@@ -39,6 +39,10 @@ dataAccess.prototype.getAllData = function () {
 	return data;
 }
 
+dataAccess.prototype.getPages = function () {
+	return data.pages;
+}
+
 dataAccess.prototype.getLabFun = async function () {
 	const returnData = [];
 	const files = await readdir(imageGrid);

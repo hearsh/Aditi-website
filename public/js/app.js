@@ -6,18 +6,19 @@ let imgCount = 0;
 let imageDir = '';
 
 function checkHeader(scroll_pos) {
+  const host = window.location.hostname;
   if (scroll_pos > 100) {
     const myHeader = document.getElementById('header');
     myHeader.className = 'fixit';
     const logo = document.getElementById('header-logo');
     logo.className = 'header-logo';
-    logo.src = './img/logos/small_logo.png';
+    logo.src = `http://${host}:3000/img/logos/small_logo.png`;
   } else {
     const myHeader = document.getElementById('header');
     myHeader.className = '';
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
-    logo.src = './img/logos/logo.png';
+    logo.src = `http://${host}:3000/img/logos/logo.png`;
   }
 }
 
