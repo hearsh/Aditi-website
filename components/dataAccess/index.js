@@ -65,6 +65,7 @@ dataAccess.prototype.getLabFun = async function () {
 	}
 	return {
 		labFun: returnData,
+		testimonials: data.testimonials
 	};
 };
 

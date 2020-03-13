@@ -90,6 +90,9 @@ h1, h2, h3, h4, h5, h5 {
   text-align: center;
   margin: auto;
 }
+.main-header {
+  max-width: 90%;
+}
 .bg-heading {
   margin: 0px;
   padding: 20px;
@@ -187,6 +190,11 @@ h1, h2, h3, h4, h5, h5 {
 
 .full-width-testimonial-section {
   padding-top: 2rem;
+}
+
+.full-width-testimonial-text {
+  max-height: 150px;
+  overflow-y: auto;
 }
 
 .full-width-testimonial-section .full-width-testimonial-text {
@@ -470,13 +478,12 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  max-width: 300px;
+  background: #e6e6e6;
   width:100%;
   position: relative;
   margin-top:10px;
-  margin-bottom:20px;
+  margin-bottom:10px;
+  margin-left: 0;
 }
 hr.center-ball {
   background: #439aa5;
@@ -498,7 +505,6 @@ hr.center-ball:before {
 }
 .web-pro-text {
   font-family: "ff-meta-serif-web-pro";
-  font-size: 16px;
 }
 .border-right {
   border-right: 1px solid #e6e6e6;
