@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const dataAccess = require('../components/dataAccess/index.js');
-const dirName = 'http://localhost:3000';
+const dirName = 'https://aditi-website.herokuapp.com/';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
