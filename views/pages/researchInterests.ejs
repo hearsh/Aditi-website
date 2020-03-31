@@ -19,21 +19,28 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg3.jpg
     
     <div class="tabs-content research-tabs" data-tabs-content="example-tabs">
       <div class="tabs-panel <% if(tab === 'Nucleo Mitochondrial Communicome'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel1c">
-        <div class="center">
-          <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
+        <div class='grid-x grid-padding-x'>
+          <div class='shrink cell'>
+            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
+          </div>
+          <div class='auto cell'>
+            <p>The central hypothesis that guides our&nbsp;research is that stochastic, endogenous nuclear DNA damage
+              alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative
+              diseases.
+            </p>
+          </div>
         </div>
-        <p>The central hypothesis that guides our&nbsp;research is that stochastic, endogenous nuclear DNA damage
-          alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative
-          diseases.
-        </p>
-
-        <p>
-          Our lab characterizes novel regulators of DNA damage-dependent metabolic reprogramming. To study this we use the strengths of two very powerful
-          model systems: the nematode,&nbsp;<em>Caenorhabditis elegans&nbsp; (C. elegans)</em>, a genetically tractable model
-          organism to identify pathways involved in mitochondrial dysfunction in response to nuclear DNA
-          damage; and mice, a physiologically relevant model in which to pursue “hits” to ultimately support rapid
-          translation of new knowledge to human aging.
-        </p>
+        <div class='grid-x'>
+          <div class='row'>
+            <p>
+              Our lab characterizes novel regulators of DNA damage-dependent metabolic reprogramming. To study this we use the strengths of two very powerful
+              model systems: the nematode,&nbsp;<em>Caenorhabditis elegans&nbsp; (C. elegans)</em>, a genetically tractable model
+              organism to identify pathways involved in mitochondrial dysfunction in response to nuclear DNA
+              damage; and mice, a physiologically relevant model in which to pursue “hits” to ultimately support rapid
+              translation of new knowledge to human aging.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="tabs-panel <% if(tab === 'DNA damage and Heart disease'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel2c">
         <div class="center">

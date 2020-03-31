@@ -433,8 +433,8 @@ border-radius:10px;
 
 /* Research styles */
 .research-img {
-  max-width: 500px;
-  padding: 20px 0px;
+  max-width: 300px;
+  padding: 0px 0px;
 }
 .tabs-title > a.my-reserach-tabs {
   font-size: 1.2rem;

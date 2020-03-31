@@ -12,13 +12,13 @@ function checkHeader(scroll_pos) {
     myHeader.className = 'fixit';
     const logo = document.getElementById('header-logo');
     logo.className = 'header-logo';
-    logo.src = `http://${host}:3000/img/logos/small_logo.png`;
+    logo.src = `http://${host}/img/logos/small_logo.png`;
   } else {
     const myHeader = document.getElementById('header');
     myHeader.className = '';
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
-    logo.src = `http://${host}:3000/img/logos/logo.png`;
+    logo.src = `http://${host}/img/logos/logo.png`;
   }
 }
 
