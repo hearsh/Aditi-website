@@ -437,7 +437,7 @@ border-radius:10px;
   padding: 0px 0px;
 }
 .tabs-title > a.my-reserach-tabs {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 20px 10px;
   background: transparent;
   color: #222;
@@ -456,20 +456,16 @@ border-radius:10px;
 }
 
 .tab-first.is-active {
-  border-right: 1.5px solid #e6e6e6;
   border-bottom: 1.5px solid #e6e6e6;
   background-color: rgba(230, 228, 228, 0.1);
 }
 
 .tab-center.is-active {
-  border-right: 1.5px solid #e6e6e6;
-  border-left: 1.5px solid #e6e6e6;
   border-bottom: 1.5px solid #e6e6e6;
   background-color: rgba(230, 228, 228, 0.1);
 }
 
 .tab-last.is-active {
-  border-left: 1.5px solid #e6e6e6;
   border-bottom: 1.5px solid #e6e6e6;
   background-color: rgba(230, 228, 228, 0.1);
 }
