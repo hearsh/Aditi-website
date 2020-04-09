@@ -215,7 +215,7 @@ style='background-image:url("img/bg/bg2.jpg")'>
     </button>
     <%
       if (results && results.testimonials) {
-      for (let i = 1; i < results.testimonials.length + 1; i++) { 
+      for (let i = 0; i < results.testimonials.length; i++) { 
     %>
       <button data-slide="<%=i %>"><span class="show-for-sr"></span></button>
     <%}}%>
