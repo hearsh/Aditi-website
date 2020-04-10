@@ -166,6 +166,10 @@ h1, h2, h3, h4, h5, h5 {
   height: 'auto';
 }
 
+/* Colab styles */
+.badge .my-badge {
+  min-width: 6.1em;
+}
 
 /* Testimonials styles */
 .my-orbit {
