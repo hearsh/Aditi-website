@@ -172,12 +172,6 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 /* Testimonials styles */
-.my-orbit {
-  background-image: url("../img/bg/bg4.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .full-width-testimonial {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1));

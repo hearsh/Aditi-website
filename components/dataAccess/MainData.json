@@ -194,6 +194,16 @@
     ],
     "news": [
         {
+            "name": "Congratulations",
+            "image": "/img/news/tedxPitt2019.jpg",
+            "description": "to the Gill group for another fantastic paper- identifying a decoy insulin receptor!"
+        },
+        {
+            "name": "Farewell to Lucile!",
+            "image": "/img/news/tedxPitt2019.jpg",
+            "description": "She heads back home to France for a while. We will surely miss you!"
+        },
+        {
             "name": "TEDxPittsburgh",
             "image": "/img/news/tedxPitt2019.jpg",
             "description": "Our own Aditi Gurkar will be one of the featured speakers at TEDxPittsburgh! “How old are you? No, Really.” She'll be introducing the difference between biological and chronological age, and then discussing the pursuit of a biological clock that might facilitate a personalized intervention to slow the process."
@@ -202,16 +212,6 @@
             "name": "Happy Holidays with axe throwing, 2019!",
             "image": "/img/news/axeThrowing201901.jpg",
             "description": ""
-        },
-        {
-            "name": "Worm Meeting 2019",
-            "image": "/img/news/eleganceConference.png",
-            "description": "Shruti's first Worm Meeting in LA." 
-        },
-        {
-            "name": "AGE Meeting",
-            "image": "/img/news/ageMeeting.png",
-            "description": "Looking forward to the AGE Meeting in SF." 
         },
         {
             "name": "External Speaker at Worm Club",
