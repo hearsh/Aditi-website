@@ -5,7 +5,7 @@ let images = [];
 let imgCount = 0;
 let imageDir = '';
 
-document.getElementById('menu').addEventListener('click', mobileMenu)
+document.getElementById('mobile-menu').addEventListener('click', mobileMenu)
 
 function checkHeader(scroll_pos) {
   const host = window.location.hostname;
