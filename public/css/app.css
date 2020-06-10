@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5, h5 {
   padding: 10px;
 }
 
+.small-logo {
+  max-width: 50px;
+}
+
 /* banners */
 .bg-img {
   padding: 15vh 0;
