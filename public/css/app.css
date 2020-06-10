@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5, h5 {
   transition: all .50s ease-in-out;
 }
 
+.mobile-menu {
+  background-color: #f1f1f1;
+}
+
 .mobile-menu > .hide {
   height: 0px;
 }
