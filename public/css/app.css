@@ -174,14 +174,12 @@ h1, h2, h3, h4, h5, h5 {
   height: 'auto';
 }
 
+/* Colab styles */
+.my-badge {
+  font-size: 1.3rem;
+}
 
 /* Testimonials styles */
-.my-orbit {
-  background-image: url("../img/bg/bg2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .full-width-testimonial {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1));
