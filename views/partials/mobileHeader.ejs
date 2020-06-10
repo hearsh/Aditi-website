@@ -5,7 +5,7 @@
     </div>
     <% for(let i = 0; i < pages.length; i++) { %>
       <div class='cell center mobile-menu-item'>
-        <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>"><%= pages[i].title %></a>
+        <a class='top-bar-link' onclick="mobileMenu()" href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>"><%= pages[i].title %></a>
       </div>
     <% } %>
   </div>
