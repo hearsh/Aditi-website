@@ -71,16 +71,21 @@ h1, h2, h3, h4, h5, h5 {
   transition: all .50s ease-in-out;
 }
 
-.mobile-menu {
+.mobile-menu > .hide {
   height: 0px;
 }
+
+.mobile-menu > .show {
+  height: auto;
+}
+
 
 .mobile-menu-item {
   padding: 10px;
 }
 
 .small-logo {
-  max-width: 50px;
+  max-width: 30px;
 }
 
 /* banners */

@@ -5,6 +5,8 @@ let images = [];
 let imgCount = 0;
 let imageDir = '';
 
+document.getElementById('menu').addEventListener('click', mobileMenu)
+
 function checkHeader(scroll_pos) {
   const host = window.location.hostname;
   if (scroll_pos > 100) {
@@ -19,6 +21,15 @@ function checkHeader(scroll_pos) {
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
     logo.src = `http://${host}/img/logos/logo.png`;
+  }
+}
+
+function mobileMenu() {
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileMenu && mobileMenu.classList.contains('hide')) {
+    mobileMenu.className = 'mobile-menu show';
+  } else {
+    mobileMenu.className = 'mobile-menu hide';
   }
 }
 
