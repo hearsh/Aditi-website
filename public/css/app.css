@@ -71,6 +71,14 @@ h1, h2, h3, h4, h5, h5 {
   transition: all .50s ease-in-out;
 }
 
+.mobile-menu {
+  height: 0px;
+}
+
+.mobile-menu-item {
+  padding: 10px;
+}
+
 /* banners */
 .bg-img {
   padding: 15vh 0;

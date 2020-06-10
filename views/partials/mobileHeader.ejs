@@ -1,0 +1,12 @@
+<div class='mobile-menu'>
+  <div class='grid-x'>
+    <div class='cell center'>
+      <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/logo.png" class='top-bar-logo '>
+    </div>
+    <% for(let i = 0; i < pages.length; i++) { %>
+      <div class='cell center mobile-menu-item'>
+        <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>"><%= pages[i].title %></a>
+      </div>
+    <% } %>
+  </div>
+</div>
