@@ -15,12 +15,27 @@ function checkHeader(scroll_pos) {
     const logo = document.getElementById('header-logo');
     logo.className = 'header-logo';
     logo.src = `http://${host}/img/logos/small_logo.png`;
+    checkMobileMenu(scroll_pos);
   } else {
     const myHeader = document.getElementById('header');
     myHeader.className = '';
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
     logo.src = `http://${host}/img/logos/logo.png`;
+    checkMobileMenu(scroll_pos);
+  }
+}
+
+function checkMobileMenu(scroll_pos) {
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (!mobileMenu) {
+    return false;
+  }
+  if (mobileMenu && scroll_pos > 100) {
+    mobileMenu.style.position = 'fixed';
+    mobileMenu.style.top = '54px';
+  } else if (mobileMenu && scroll_pos <= 100) {
+    mobileMenu.style = '';
   }
 }
 
