@@ -5,15 +5,14 @@
           <a >
             <i class="fi-list medium"></i>
           </a>
-          <a href="<% if(dirName) { %><%=dirName%><%}%>">
-            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/logo.png" id='header-logo' class='top-bar-logo show-for-large'>
-            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/small_logo.png" id='header-logo' class='top-bar-logo hide-for-large'>
+          <a href="<% if(dirName) { %><%=dirName%><%}%>" class='show-for-large'>
+            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/logo.png" id='header-logo' class='top-bar-logo'>
           </a>
         </div>
       </div>
       <div class="auto cell out-vc top-bar-center" data-equalizer-watch>
-        <div class="in-vc show-for-medium">
-          <ul class="menu">
+        <div class="in-vc">
+          <ul class="menu show-for-medium">
             <% for(let i = 0; i < pages.length; i++) { %>
             <li><a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>"><%= pages[i].title %></a></li>
             <% } %>
