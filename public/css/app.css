@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h5 {
   max-width: 30px;
 }
 
+#mobile-menu-icon {
+  font-size: 1.5em;
+}
+
 /* banners */
 .bg-img {
   padding: 15vh 0;
