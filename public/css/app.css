@@ -58,8 +58,9 @@ h1, h2, h3, h4, h5, h5 {
 }
 
 .top-bar-link {
-  color: #32485c;
+  color: #439aa5;
   padding: 0.2rem 0.5em !important;
+  font-family: "Amiri",serif;
 }
 
 .header-logo {
