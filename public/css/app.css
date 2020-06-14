@@ -574,3 +574,13 @@ hr.center-ball:before {
 .border-right {
   border-right: 1px solid #f1f1f1;
 }
+
+
+/* Button styles */
+.hollow > .my-arrow {
+  display: none;
+}
+
+.hollow: hover > .my-arrow{
+  display: inital;
+}
