@@ -555,7 +555,8 @@ hr.center-ball:before {
   margin: 0 0 0 -3px;
 }
 .web-pro-text {
-  font-family: "ff-meta-serif-web-pro";
+  font-family: "hk_groteskmedium",sans-serif;
+  font-size: 1.31944vw;
 }
 .border-right {
   border-right: 1px solid #e6e6e6;
