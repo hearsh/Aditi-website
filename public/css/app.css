@@ -581,6 +581,6 @@ hr.center-ball:before {
   display: none;
 }
 
-.hollow: hover > .my-arrow{
+.hollow:hover > .my-arrow{
   display: inital;
 }
