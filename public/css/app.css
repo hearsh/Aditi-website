@@ -671,19 +671,19 @@ hr.center-ball:before {
   transition: all 0.2s;
 }
 .animated-arrow:hover {
-  color: #eaeaea;
+  color: #2e6b73;
 }
 .animated-arrow:hover > .the-arrow.-left > .shaft {
   width: 64px;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  background-color: #eaeaea;
+  background-color: #2e6b73;
 }
 .animated-arrow:hover > .the-arrow.-left > .shaft:before, .animated-arrow:hover > .the-arrow.-left > .shaft:after {
   width: 8px;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  background-color: #eaeaea;
+  background-color: #2e6b73
 }
 .animated-arrow:hover > .the-arrow.-left > .shaft:before {
   -webkit-transform: rotate(40deg);
