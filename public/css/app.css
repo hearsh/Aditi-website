@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h5 {
 
 /* banners */
 .bg-img {
-  padding: 20vh 0 0 0;
+  padding: 35vh 0 0 0;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h5 {
 }
 .bg-center-container {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   border: 2px solid #fff;
   text-align: center;
   margin: auto;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h5 {
 }
 .bg-heading {
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
   font-size: 2rem;
   color: #222;
   text-transform: uppercase;
