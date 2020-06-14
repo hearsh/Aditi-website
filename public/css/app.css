@@ -590,4 +590,5 @@ hr.center-ball:before {
 
 .hollow:hover > .my-arrow{
   display: initial;
+  padding-left: 10px;
 }
