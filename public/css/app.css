@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h5 {
   transition: all .50s ease-in-out;
 }
 
+.social_header {
+  color: #439aa5;
+}
+
 .mobile-menu {
   background-color: #ffffff;
   z-index: 9999;
