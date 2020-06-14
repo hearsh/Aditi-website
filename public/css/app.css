@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h5 {
 
 /* banners */
 .bg-img {
-  padding: 15vh 0;
+  padding: 20vh 0 0 0;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -115,7 +115,6 @@ h1, h2, h3, h4, h5, h5 {
   justify-items: 'center';
 }
 .bg-center-container {
-  max-width: 650px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   border: 2px solid #fff;
