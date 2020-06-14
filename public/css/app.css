@@ -529,13 +529,13 @@ border-radius:10px;
 }
 
 hr {
-  background: #e6e6e6;
+  border: 0;
+  height: 1px;
+  max-width: 300px;
   width:100%;
   position: relative;
   margin-top:10px;
-  margin-bottom:10px;
-  margin-left: 0;
-  max-width: 300px;
+  margin-bottom:20px;
 }
 hr.center-ball {
   background: #439aa5;
