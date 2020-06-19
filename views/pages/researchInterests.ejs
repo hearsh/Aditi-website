@@ -6,11 +6,14 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       <% if (tab === 'Characterize novel regulators of DNA damage-dependent metabolic reprogramming'.replace(/\s/g, '_')) {
-      %>Characterize novel regulators of DNA damage-dependent metabolic reprogramming<%
+      %>
+      Characterize novel regulators of DNA damage-dependent metabolic reprogramming
+      <%
       } else if (tab === 'Understanding the role of DNA damage in driving post-mitotic tissue aging'.replace(/\s/g, '_'))
       {
-      %>Understanding the role of DNA damage in driving post-mitotic tissue aging
-      <%else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
+      %>
+      Understanding the role of DNA damage in driving post-mitotic tissue aging
+      <%} else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
       {%>
         How old are you? No really
       <%
@@ -64,7 +67,7 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
           </p>
         </div>
       </div>
-      <%else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
+      <% } else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
       {%>
         <p><em>“Why people age differently?”</em></p>
         <p>Although, one’s chronological age maybe the same (the age that you calculate from your birth certificate), two people who are 65, rarely feel the same. One seems healthy, strong, may complain occasionally about joint pain- but overall is fit, whereas, the other suffers from diabetes, dementia and heart disease. WHY? 
