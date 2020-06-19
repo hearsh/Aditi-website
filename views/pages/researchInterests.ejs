@@ -5,61 +5,67 @@ class='bg-img'
 style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
-      Research Interestes
+      <% if (tab === 'Characterize novel regulators of DNA damage-dependent metabolic reprogramming'.replace(/\s/g, '_')) {
+      %>Characterize novel regulators of DNA damage-dependent metabolic reprogramming<%
+      } else if (tab === 'Understanding the role of DNA damage in driving post-mitotic tissue aging'.replace(/\s/g, '_'))
+      {
+      %>Understanding the role of DNA damage in driving post-mitotic tissue aging
+      <%else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
+      {%>
+        How old are you? No really
+      <%
+      }
+      %>
     </h1>
   </div>
 </div>
 <div class='grid-x grid-container add-padd' >
   <div class='cell'>
-    <ul class="tabs research-tabs-head" data-responsive-accordion-tabs="tabs small-accordian medium-accordion large-tabs" id="example-tabs">
-      <li class="tabs-title <% if(tab === 'Nucleo Mitochondrial Communicome'.replace(/\s/g, '_')) { %> is-active <% } %> tab-first"><a href="#panel1c" class='my-reserach-tabs' aria-selected="true">Characterize novel regulators of DNA damage-dependent metabolic reprogramming</a></li>
-      <li class="tabs-title <% if(tab === 'DNA damage and Heart disease'.replace(/\s/g, '_')) { %> is-active <% } %> tab-center"><a class='my-reserach-tabs' href="#panel2c">Understanding the role of DNA damage in driving post-mitotic tissue aging</a></li>
-      <li class="tabs-title <% if(tab === 'Genotoxic stress response in post-mitotic cells'.replace(/\s/g, '_')) { %> is-active <% } %> tab-last"><a class='my-reserach-tabs' href="#panel3c">How old are you? No really.</a></li>
-    </ul>
-    
-    <div class="tabs-content research-tabs" data-tabs-content="example-tabs">
-      <div class="tabs-panel <% if(tab === 'Nucleo Mitochondrial Communicome'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel1c">
-        <div class='grid-x grid-padding-x'>
-          <div class='shrink cell'>
-            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
-          </div>
-          <div class='auto cell'>
-            <p>The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases. There is growing evidence that nuclear DNA (nDNA) damage accumulates with age and correlates with pathology in several tissues. Furthermore, there is evidence that nDNA repair capacity declines with age. We use a physiologically relevant system in which DNA repair is attenuated, leading to an accelerated accumulation of endogenous damage, to investigate the molecular and cellular response circuitry.
-            </p>
-            <p>
-              Depletion of a DNA repair endonuclease, ERCC1-XPF in mice (as in humans), leads to premature onset of molecular, structural and functional changes that mimic normal aging and the mice spontaneously develop numerous age-related diseases in their 6 month lifespan. Surprisingly, loss of functional Ercc1 (strictly a nuclear DNA repair enzyme) causes accrual of defective mitochondria and an increase in reactive oxygen species (ROS) in vitro and in vivo. This suggests that nuclear DNA damage leads to mitochondrial reprogramming, and identification of the signaling mechanism(s) that drive this is likely to yield novel insights about molecular mechanisms of aging, as well as, novel targets for preventing cell senescence and age-related decline. 
-            </p>
-            <p>
-              To study this we use the strengths of two very powerful model systems: the nematode, Caenorhabditis elegans  (C. elegans), a genetically tractable model organism to identify pathways involved in mitochondrial dysfunction in response to nuclear DNA damage, and mice, a physiologically relevant model in which to pursue “hits” to ultimately support rapid translation of new knowledge to human aging.
-            </p>
-          </div>
+    <% if (tab === 'Characterize novel regulators of DNA damage-dependent metabolic reprogramming'.replace(/\s/g, '_')) {
+      %>
+      <div class='grid-x grid-padding-x'>
+        <div class='shrink cell'>
+          <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e1.jpg" class='research-img' alt="Nucleo-Mitochondrial Communicome">
+        </div>
+        <div class='auto cell'>
+          <p>The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases. There is growing evidence that nuclear DNA (nDNA) damage accumulates with age and correlates with pathology in several tissues. Furthermore, there is evidence that nDNA repair capacity declines with age. We use a physiologically relevant system in which DNA repair is attenuated, leading to an accelerated accumulation of endogenous damage, to investigate the molecular and cellular response circuitry.
+          </p>
+          <p>
+            Depletion of a DNA repair endonuclease, ERCC1-XPF in mice (as in humans), leads to premature onset of molecular, structural and functional changes that mimic normal aging and the mice spontaneously develop numerous age-related diseases in their 6 month lifespan. Surprisingly, loss of functional Ercc1 (strictly a nuclear DNA repair enzyme) causes accrual of defective mitochondria and an increase in reactive oxygen species (ROS) in vitro and in vivo. This suggests that nuclear DNA damage leads to mitochondrial reprogramming, and identification of the signaling mechanism(s) that drive this is likely to yield novel insights about molecular mechanisms of aging, as well as, novel targets for preventing cell senescence and age-related decline. 
+          </p>
+          <p>
+            To study this we use the strengths of two very powerful model systems: the nematode, Caenorhabditis elegans  (C. elegans), a genetically tractable model organism to identify pathways involved in mitochondrial dysfunction in response to nuclear DNA damage, and mice, a physiologically relevant model in which to pursue “hits” to ultimately support rapid translation of new knowledge to human aging.
+          </p>
         </div>
       </div>
-      <div class="tabs-panel <% if(tab === 'DNA damage and Heart disease'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel2c">
-        <div class='grid-x grid-padding-x'>
-          <div class='shrink cell'>
-            <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e2.jpg" class='research-img' alt="DNA damage &amp; Heart disease">
-          </div>
-          <div class='cell auto'>
-            <p><em>“How does DNA damage impact replicative vs. post mitotic tissues with age?”</em></p>
-            <p>
-              <b>Cardiovascular disease:</b> Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents disabling or life-threatening age-related diseases compared to their siblings.  This includes stroke, myocardial infarction, congestive heart failure, of insulin resistance and cardiovascular disease. 
-            </p>
-            <p>
-              <b>Neurocognitive decline:</b> Similarly, patients with childhood brain tumors requiring therapy targeted to the central nervous system experience neurocognitive decline much earlier than their siblings.  Patients with defects in nucleotide excision repair (NER) exhibit several neurological symptoms such as microcephaly, mental retardation and deafness. Cockayne syndrome (CS), trichothiodystrophy (TTD) and Ataxia Telangiectasia (AT) are all characterized as neurodegenerative syndromes and are linked with dysregulated DNA repair. This evidence provides us with a rationale that improper DNA repair contributes to neurodegenerative disorders.
-            </p>
-            <p>
-              Therefore, we are interested in molecular mechanisms modulated by DNA damage which impact age-associated diseases such as: 
-              <ul>
-                <li>cardiovascular disease</li>
-                <li>skeletal muscle degeneration</li>
-                <li>neurodegenration</li>
-              </ul>
-            </p>
-          </div>
+      <%
+      } else if (tab === 'Understanding the role of DNA damage in driving post-mitotic tissue aging'.replace(/\s/g, '_'))
+      {
+      %>
+      <div class='grid-x grid-padding-x'>
+        <div class='shrink cell'>
+          <img src="<% if(dirName) { %><%=dirName%><%}%>/img/research/e2.jpg" class='research-img' alt="DNA damage &amp; Heart disease">
+        </div>
+        <div class='cell auto'>
+          <p><em>“How does DNA damage impact replicative vs. post mitotic tissues with age?”</em></p>
+          <p>
+            <b>Cardiovascular disease:</b> Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents disabling or life-threatening age-related diseases compared to their siblings.  This includes stroke, myocardial infarction, congestive heart failure, of insulin resistance and cardiovascular disease. 
+          </p>
+          <p>
+            <b>Neurocognitive decline:</b> Similarly, patients with childhood brain tumors requiring therapy targeted to the central nervous system experience neurocognitive decline much earlier than their siblings.  Patients with defects in nucleotide excision repair (NER) exhibit several neurological symptoms such as microcephaly, mental retardation and deafness. Cockayne syndrome (CS), trichothiodystrophy (TTD) and Ataxia Telangiectasia (AT) are all characterized as neurodegenerative syndromes and are linked with dysregulated DNA repair. This evidence provides us with a rationale that improper DNA repair contributes to neurodegenerative disorders.
+          </p>
+          <p>
+            Therefore, we are interested in molecular mechanisms modulated by DNA damage which impact age-associated diseases such as: 
+            <ul>
+              <li>cardiovascular disease</li>
+              <li>skeletal muscle degeneration</li>
+              <li>neurodegenration</li>
+            </ul>
+          </p>
         </div>
       </div>
-      <div class="tabs-panel <% if(tab === 'Genotoxic stress response in post-mitotic cells'.replace(/\s/g, '_')) { %> is-active <% } %>" id="panel3c">
+      <%else if (tab === 'How old are you? No really'.replace(/\s/g, '_'))
+      {%>
         <p><em>“Why people age differently?”</em></p>
         <p>Although, one’s chronological age maybe the same (the age that you calculate from your birth certificate), two people who are 65, rarely feel the same. One seems healthy, strong, may complain occasionally about joint pain- but overall is fit, whereas, the other suffers from diabetes, dementia and heart disease. WHY? 
         </p>
@@ -69,12 +75,11 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
         <p>
           We are looking at what is inherently different in ‘fast agers’ (people who seem to age quickly- have multiple diseases etc) vs ‘slow agers’ (people who seem to be healthy in their 70s). Collaborating with a set of talented geriatricians, data analysts and biologists we want to find a unique fingerprint that differentiates between these two groups.
         </p>
-      </div>
-    </div>
+      <%
+      }
+      %>
   </div>
 </div>
-
-
 
 <% include ../partials/footer %>
 <% include ../partials/tail %>
