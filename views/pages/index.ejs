@@ -87,7 +87,19 @@ style='background-image:url("img/bg/bg2.jpg")'>
         <p>
           <%=results.researchIntrest[i].description %>
         </p>
-        <a class="hollow button" href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">Read More</a>
+        <a href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
+          <span class='the-arrow -left'>
+            <span class='shaft'></span>
+          </span>
+          <span class='main'>
+            <span class='text'>
+              Learn More
+            </span>
+            <span class='the-arrow -right'>
+              <span class='shaft'></span>
+            </span>
+          </span>
+        </a>
       </div>
     </div>
   <% } %>
@@ -121,7 +133,19 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <% } %>
   </div>
   <div class='cell'>
-    <a class="hollow button" href="./Publications">View All Publications </a>
+    <a href="./Publications">
+      <span class='the-arrow -left'>
+        <span class='shaft'></span>
+      </span>
+      <span class='main'>
+        <span class='text'>
+          View All Publications
+        </span>
+        <span class='the-arrow -right'>
+          <span class='shaft'></span>
+        </span>
+      </span>
+    </a>
   </div>
 </div>
 
@@ -139,12 +163,12 @@ style='background-image:url("img/bg/bg4.jpg")'>
   <div class='cell medium-8 medium-offset-2'>
     <% for (let i = 0; i < results.team.length; i++) { %>
       <div class='grid-x grid-padding-x grid-margin-y team-card' data-equalizer>
-        <div class='cell shrink out-vc border-right'>
+        <div class='cell shrink small-12 center out-vc border-right'>
           <div class='in-vc'>
             <img class='team-img' src='<%=results.team[i].image %>'>
           </div>
         </div>
-        <div class='cell auto out-vc'>
+        <div class='cell small-12 auto out-vc'>
           <div class='in-vc'>
             <h5><%=results.team[i].name %> <%=results.team[i].title ? ` | ${results.team[i].title}` : `` %></h5>
             <p><%=results.team[i].Description %></p>
@@ -182,7 +206,19 @@ style='background-image:url("img/bg/bg5.jpg")'>
       </div>
     <% } %>
     <div class='cell'>
-      <a class="hollow button" href="./news">View All News </a>
+      <a href="./news">
+        <span class='the-arrow -left'>
+          <span class='shaft'></span>
+        </span>
+        <span class='main'>
+          <span class='text'>
+            View All News
+          </span>
+          <span class='the-arrow -right'>
+            <span class='shaft'></span>
+          </span>
+        </span>
+      </a>
     </div>
 </div>
 
