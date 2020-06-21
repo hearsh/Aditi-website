@@ -139,7 +139,7 @@ body {
 
 /* Card styles */
 .my-card {
-  padding: 20px
+  padding: 20px;
 }
 .card-img {
   background-attachment: scroll;
@@ -148,6 +148,13 @@ body {
   height: 250px;
   width: 100%;
   margin-bottom: 20px;
+  position: relative;
+}
+.my-card-header {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(2, 2, 2, 0.3);
+  color: #ffffff;
 }
 
 /* Publication styles */
