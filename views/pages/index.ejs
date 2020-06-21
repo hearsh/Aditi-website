@@ -196,11 +196,11 @@ style='background-image:url("img/bg/bg5.jpg")'>
           <div 
             class='card-img'
             style='background-image: url("<%=results.news[i].image %>");'
-          ></div>
-          <h4><%=results.news[i].name %></h4>
-          <p class="news-text">
-            <%=results.news[i].description %>
-          </p>
+          >
+          <div class='my-card-header'>
+            <h4><%=results.news[i].name %></h4>
+          </div>
+        </div>
         </div>
       </div>
     <% } %>
