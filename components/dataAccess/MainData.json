@@ -188,9 +188,9 @@
     ],
     "news": [
         {
-            "name": "Congratulations",
+            "name": "Congratulations to the Gill Lab!",
             "image": "/img/news/gill.png",
-            "description": "to the Gill group for another fantastic paper- identifying a decoy insulin receptor!"
+            "description": "another fantastic paper: Identifing a decoy insulin receptor"
         },
         {
             "name": "Au Revoir, Lucile!",
@@ -198,9 +198,9 @@
             "description": "we will miss you so much"
         },
         {
-            "name": "Happy Holidays with axe throwing, 2019!",
+            "name": "Happy Party with Gurkar, Eisele and Rizzo labs",
             "image": "/img/news/axeThrowing201901.png",
-            "description": ""
+            "description": "honining are axe-throwing skills."
         },
         {
             "name": "TEDxPittsburgh",
