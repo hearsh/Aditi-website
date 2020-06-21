@@ -145,10 +145,13 @@ body {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 450px;
+  height: 250px;
   width: 100%;
   margin-bottom: 20px;
   position: relative;
+}
+.my-research-intrest {
+  height: 450px;
 }
 .my-card-header {
   position: absolute;
