@@ -32,17 +32,17 @@
     "researchIntrest": [
         {
             "title": "Characterize novel regulators of DNA damage-dependent metabolic reprogramming",
-            "image": "img/research/heart.jpg",
+            "image": "img/research/ri01.png",
             "description": "The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases."
         },
         {
             "title": "Understanding the role of DNA damage in driving post-mitotic tissue aging",
-            "image": "img/research/nucleo_mitochondrial_communicome-aditi_gurkar.jpg",
+            "image": "img/research/ri02.png",
             "description": "Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents, develop disabling or life-threatening age- related diseases compared to their siblings."
         },
         {
             "title": "How old are you? No really",
-            "image": "img/research/post_mitotic.jpg",
+            "image": "img/research/ri03.jpg",
             "description": "Although, one’s chronological age maybe the same (the age that you calculate from your birth certificate), two people who are 65, rarely feel the same."
         }
     ],
