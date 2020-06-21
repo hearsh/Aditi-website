@@ -195,12 +195,12 @@
     "news": [
         {
             "name": "Congratulations",
-            "image": "/img/news/nw01.jpg",
+            "image": "/img/news/gill.png",
             "description": "to the Gill group for another fantastic paper- identifying a decoy insulin receptor!"
         },
         {
             "name": "Farewell to Lucile!",
-            "image": "/img/news/tedxPitt2019.jpg",
+            "image": "/img/news/farewell_Lucile.png",
             "description": "She heads back home to France for a while. We will surely miss you!"
         },
         {
