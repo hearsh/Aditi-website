@@ -83,8 +83,8 @@ style='background-image:url("img/bg/bg2.jpg")'>
           class='card-img my-research-interest'
           style='background-image: url("<%=results.researchIntrest[i].image %>");'
         >
-          <div class='my-card-header center bold'>
-            <h4><%=results.researchIntrest[i].title %></h4>
+          <div class='my-card-header'>
+            <h4 class='center bold'><%=results.researchIntrest[i].title %></h4>
           </div>
           <div class='my-card-footer'>
             <a class='animated-arrow'  href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
@@ -207,7 +207,7 @@ style='background-image:url("img/bg/bg5.jpg")'>
         </div>
       </div>
     <% } %>
-    <div class='cell center'>
+    <div class='cell '>
       <a class='animated-arrow' href="./news">
         <span class='the-arrow -left'>
           <span class='shaft'></span>
