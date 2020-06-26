@@ -151,7 +151,7 @@ body {
   position: relative;
 }
 .my-research-interest {
-  height: 450px;
+  min-height: 350px;
 }
 .my-card-header {
   position: absolute;
@@ -160,7 +160,6 @@ body {
   color: #222;
   width: 100%;
   padding: 10px;
-  text-align: 'center';
 }
 
 .my-card-footer {
@@ -170,6 +169,7 @@ body {
   width: 100%;
   padding: 10px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Publication styles */
