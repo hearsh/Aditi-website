@@ -588,6 +588,10 @@ hr.center-ball:before {
   .grid-container {
     max-width: 95rem;
   }
+  .web-pro-text {
+    font-family: "hk_groteskmedium",sans-serif;
+    font-size: 100%;
+  }
 }
 
 /* spacing styles */
