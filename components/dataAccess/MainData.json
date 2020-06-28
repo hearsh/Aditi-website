@@ -31,14 +31,14 @@
     ],
     "researchIntrest": [
         {
-            "title": "Decoding the role of DNA in post-mitotic cells",
-            "image": "img/research/ri01.png",
-            "description": "The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases."
-        },
-        {
             "title": "Remapping metabolism upon DNA damage",
             "image": "img/research/ri02.png",
             "description": "Problems with DNA repair pathways have been observed in cardiac failure patients. Additionally, recent data suggests that pediatric patients treated with genotoxic agents, develop disabling or life-threatening age- related diseases compared to their siblings."
+        },
+        {
+            "title": "Decoding the role of DNA in post-mitotic cells",
+            "image": "img/research/ri01.png",
+            "description": "The central hypothesis that guides our research is that stochastic, endogenous nuclear DNA damage alters cellular and metabolic programs, leading to progression of multiple, age- related degenerative diseases."
         },
         {
             "title": "Defining your biological age",
