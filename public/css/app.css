@@ -833,7 +833,6 @@ hr.center-ball:before {
   -webkit-align-self: stretch;
       -ms-flex-item-align: stretch;
           align-self: stretch;
-  background: #e6e6e6;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
