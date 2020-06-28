@@ -78,30 +78,28 @@ style='background-image:url("img/bg/bg2.jpg")'>
 <div class='grid-x medium-up-3 grid-padding-x grid-container grid-padding-y add-padd'  data-equalizer>
   <% for (let i = 0; i < 3; i++) { %>
     <div class='cell'>
-      <div class='my-card'>
+      <div class='my-card center'>
         <div 
           class='card-img my-research-interest'
           style='background-image: url("<%=results.researchIntrest[i].image %>");'
         >
-          <div class='my-card-header'>
+          <div class='my-card-footer'>
             <h4 class='center bold'><%=results.researchIntrest[i].title %></h4>
           </div>
-          <div class='my-card-footer'>
-            <a class='animated-arrow'  href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
-              <span class='the-arrow -left'>
-                <span class='shaft'></span>
-              </span>
-              <span class='main'>
-                <span class='text'>
-                  Learn More
-                </span>
-                <span class='the-arrow -right'>
-                  <span class='shaft'></span>
-                </span>
-              </span>
-            </a>
-          </div>
         </div>
+        <a class='animated-arrow'  href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
+          <span class='the-arrow -left'>
+            <span class='shaft'></span>
+          </span>
+          <span class='main'>
+            <span class='text'>
+              Learn More
+            </span>
+            <span class='the-arrow -right'>
+              <span class='shaft'></span>
+            </span>
+          </span>
+        </a>
       </div>
     </div>
   <% } %>
