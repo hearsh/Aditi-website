@@ -108,8 +108,11 @@ body {
 }
 
 /* banners */
-.bg-img {
+.bg-main-header {
   padding: 20vh 0;
+}
+.bg-img {
+  padding: 17vh 0;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
