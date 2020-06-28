@@ -150,7 +150,7 @@ body {
   margin-bottom: 20px;
   position: relative;
 }
-..my-research-interest {
+.my-research-interest {
   min-height: 40vh;
 }
 .my-card-header {
