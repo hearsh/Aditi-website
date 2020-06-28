@@ -150,9 +150,6 @@ body {
   margin-bottom: 20px;
   position: relative;
 }
-.my-research-interest {
-  min-height: 400px;
-}
 .my-card-header {
   background-color: rgba(255, 255, 255, 0.1);
   color: #222;
@@ -589,9 +586,20 @@ hr.center-ball:before {
     max-width: 95rem;
   }
   .web-pro-text {
-    font-family: "hk_groteskmedium",sans-serif;
-    font-size: 100%;
+    font-size: 1.5rem;
   }
+  h1, .h1 {
+    font-size: 3.5rem; }
+  h2, .h2 {
+    font-size: 3rem; }
+  h3, .h3 {
+    font-size: 2.4rem; }
+  h4, .h4 {
+    font-size: 2.0625rem; }
+  h5, .h5 {
+    font-size: 1.75rem; }
+  h6, .h6 {
+    font-size: 1.5rem; }
 }
 
 /* spacing styles */
