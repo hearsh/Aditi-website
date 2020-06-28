@@ -154,17 +154,14 @@ body {
   min-height: 400px;
 }
 .my-card-header {
-  position: absolute;
-  top: 0px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #222;
   width: 100%;
   padding: 10px;
+  margin-bottom: 40vh;
 }
 
 .my-card-footer {
-  position: absolute;
-  bottom: 0px;
   color: #222;
   width: 100%;
   padding: 10px;
