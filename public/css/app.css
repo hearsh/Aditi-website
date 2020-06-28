@@ -587,8 +587,10 @@ hr.center-ball:before {
 
 
 /* foundation styles */
-.grid-container {
-  max-width: 95rem;
+@media print, screen and (max-width: 90em) {
+  .grid-container {
+    max-width: 95rem;
+  }
 }
 
 /* spacing styles */
