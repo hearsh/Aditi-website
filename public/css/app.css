@@ -145,7 +145,7 @@ body {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  height: 250px;
+  min-height: 250px;
   width: 100%;
   margin-bottom: 20px;
   position: relative;
