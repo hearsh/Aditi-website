@@ -71,11 +71,13 @@ router.get('/labfun', function(req, res, next) {
 
 /* GET Research Interest page. */
 router.get('/research-interests/:data', function(req, res, next) {
-  let data = req.params.data;
+  let tab = req.params.data;
+  const researchData = dataAccess.getReserachInterest(tab);
   res.render('pages/researchInterests', {
     title: 'Gurkar Lab | Research Intrest',
-    tab: data,
+    tab,
     pages: dataAccess.getPages(),
+    researchData,
     dirName
   });
 });

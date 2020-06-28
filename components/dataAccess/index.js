@@ -43,6 +43,14 @@ dataAccess.prototype.getPages = function () {
 	return data.pages;
 }
 
+dataAccess.prototype.getReserachInterest = function (tab) {
+	return data.researchIntrest.map(myData => {
+		if (tab === myData.title.replace(/\s/g, '_')) {
+			return myData;
+		}
+	});
+}
+
 dataAccess.prototype.getLabFun = async function () {
 	const returnData = [];
 	const files = await readdir(imageGrid);
