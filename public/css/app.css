@@ -150,7 +150,12 @@ body {
   margin-bottom: 20px;
   position: relative;
 }
+..my-research-interest {
+  min-height: 40vh;
+}
 .my-card-header {
+  position: absolute;
+  top: 0px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #222;
   width: 100%;
@@ -159,6 +164,8 @@ body {
 }
 
 .my-card-footer {
+  position: absolute;
+  bottom: 0px;
   color: #222;
   width: 100%;
   padding: 10px;
