@@ -588,10 +588,10 @@ hr.center-ball:before {
 
 
 /* foundation styles */
-@media print, screen and (min-width: 84em) {
-  /* .grid-container {
+@media print, screen and (min-width: 1500px) {
+  .grid-container {
     max-width: 95rem;
-  } */
+  }
   .web-pro-text {
     font-size: 1.5rem;
   }
