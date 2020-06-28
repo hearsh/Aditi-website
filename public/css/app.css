@@ -856,3 +856,11 @@ hr.center-ball:before {
   }
 }
 
+.marketing-site-content-section-block-header {
+  font-weight: 700;
+}
+
+.marketing-site-content-section-block-subheader {
+  color: #222;
+}
+
