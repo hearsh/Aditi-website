@@ -190,7 +190,7 @@
         {
             "name": "Congratulations to the Gill Lab!",
             "image": "/img/news/gill.png",
-            "description": "Our collaborators the Gill lab publish another fantastic paper. Alternative splicing gives rise to a decoy insulin receptor in C.elegans. A new layer of regulation for insulin signaling"
+            "description": "Our collaborators the Gill lab publish another fantastic paper. Alternative splicing gives rise to a decoy insulin receptor in <em>C.elegans</em>. A new layer of regulation for insulin signaling"
         },
         {
             "name": "Au Revoir, Lucile!",
