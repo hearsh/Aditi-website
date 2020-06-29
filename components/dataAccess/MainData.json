@@ -323,6 +323,10 @@
     ],
     "labFun": [
         {
+            "title": "Celebrating Shruthi's birthday",
+            "img": "birthdayShruti02"
+        },
+        {
             "title": "Lucile's farewell painting night in Pittsburgh!",
             "img": "lucielFarewell"
         },
@@ -359,10 +363,6 @@
             "img": "birthdayShruti"
         },
         {
-            "title": "Aging Institute Winter Party",
-            "img": "winterParty"
-        },
-        {
             "title": "Happy Birthday Lucile",
             "img": "birthdayLuciel"
         },
@@ -391,7 +391,7 @@
             "img": "pirates"
         },
         {
-            "title": "Aging Institute winter party.",
+            "title": "Aging Institute winter party",
             "img": "winterParty"
         }
     ],
