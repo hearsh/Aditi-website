@@ -864,3 +864,8 @@ hr.center-ball:before {
   color: #222;
 }
 
+/* Lab Fun styles */
+.we-believe-img {
+  max-width: 450px;
+  margin: auto;
+}
