@@ -12,7 +12,7 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
 </div>
 <div class='grid-x grid-container add-padd' >
   <div class='cell'>
-    <% if (tab === 'Decoding the role of DNA in post-mitotic cells'.replace(/\s/g, '_')) {
+    <% if (researchData.title === 'Decoding the role of DNA in post-mitotic cells') {
       %>
       <div class='grid-x grid-padding-x'>
         <div class='auto cell'>
@@ -47,7 +47,7 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
         </div>
       </div>
       <%
-      } else if (tab === 'Remapping metabolism upon DNA damage'.replace(/\s/g, '_'))
+      } else if (researchData.title === 'Remapping metabolism upon DNA damage')
       {
       %>
       <div class='grid-x grid-padding-x'>
@@ -69,7 +69,7 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
           </p>
         </div>
       </div>
-      <% } else if (tab === 'Defining your composite 'biological' age'.replace(/\s/g, '_'))
+      <% } else if (researchData.title === 'Defining your composite 'biological' age')
       {%>
         <p><em>“Why people age differently?”</em></p>
         <p>Although, one’s chronological age maybe the same (the age that you calculate from your birth certificate), two people who are 65, rarely feel the same. One seems healthy, strong, may complain occasionally about joint pain- but overall is fit, whereas, the other suffers from diabetes, dementia and heart disease. WHY? 
