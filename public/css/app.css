@@ -27,6 +27,10 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.my-small-h4  {
+  font-family: "hk_groteskmedium",sans-serif;
+}
+
 /* Top bar styles */
 #header {
   background-color: #fff;
@@ -874,6 +878,6 @@ hr.center-ball:before {
 
 @media print, screen and (min-width: 40em) {
   .my-small-h4 {
-      font-size: 1.4625rem;
+    font-size: 1.4625rem;
   }
 }
