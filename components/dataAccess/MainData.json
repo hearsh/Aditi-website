@@ -22,7 +22,29 @@
         },
         {
             "title": "Lab Culture",
-            "link": "/labfun"
+            "link": "/labfun",
+            "subLink": [
+                {
+                    "title": "Lab fun",
+                    "link": "/labfun#labFun"
+                },
+                {
+                    "title": "Fun things we do",
+                    "link": "/labfun#funThings"
+                },
+                {
+                    "title": "Testimonials",
+                    "link": "/labfun#testimonials"
+                },
+                {
+                    "title": "Collaborations",
+                    "link": "/labfun#collaboration"
+                },
+                {
+                    "title": "Resources",
+                    "link": "/labfun#resources"
+                }
+            ]
         },
         {
             "title": "Contact",
@@ -300,6 +322,10 @@
 
     ],
     "labFun": [
+        {
+            "title": "Lucile's farewell painting night in Pittsburgh!",
+            "img": "lucielFarewell"
+        },
         {
             "title": "Farewell to a talented summer student- Roshan. Back to Oxford",
             "img": "farewellRoshan"

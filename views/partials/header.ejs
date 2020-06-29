@@ -13,9 +13,20 @@
       </div>
       <div class="auto cell out-vc top-bar-center" data-equalizer-watch>
         <div class="in-vc">
-          <ul class="menu show-for-medium">
+          <ul class="dropdown menu show-for-medium" data-dropdown-menu>
             <% for(let i = 0; i < pages.length; i++) { %>
-            <li><a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>"><%= pages[i].title %></a></li>
+            <li>
+              <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>">
+                <%= pages[i].title %>
+              </a>
+              <% if (pages[i].subLink) { %>
+                <% for(let j = 0; j < pages[i].subLink.length; j++) { %>
+                  <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].subLink[j].link %>">
+                    <%= pages[i].subLink[j].title %>
+                  </a>
+                <% } %>
+              <% } %>
+            </li>
             <% } %>
           </ul>
         </div>
