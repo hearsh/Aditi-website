@@ -20,11 +20,15 @@
                 <%= pages[i].title %>
               </a>
               <% if (pages[i].subLink) { %>
+                <ul class="menu">
                 <% for(let j = 0; j < pages[i].subLink.length; j++) { %>
-                  <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].subLink[j].link %>">
-                    <%= pages[i].subLink[j].title %>
-                  </a>
+                  <li>
+                    <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].subLink[j].link %>">
+                      <%= pages[i].subLink[j].title %>
+                    </a>
+                  </li>
                 <% } %>
+                </ul>
               <% } %>
             </li>
             <% } %>
