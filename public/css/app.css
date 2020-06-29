@@ -260,10 +260,6 @@ body {
   padding-top: 2rem;
 }
 
-.full-width-testimonial-text {
-  max-height: 150px;
-  overflow-y: auto;
-}
 .full-width-testimonial-text::-webkit-scrollbar {
   width: 0.5em;
  height: 0.5em;
