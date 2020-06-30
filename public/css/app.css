@@ -591,6 +591,9 @@ hr.center-ball:before {
 .border-right {
   border-right: 1px solid #e6e6e6;
 }
+.hidden-pannel {
+  display:none;
+}
 
 
 /* foundation styles */
