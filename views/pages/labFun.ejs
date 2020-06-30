@@ -198,11 +198,11 @@ style='background-image:url("img/bg/bg3.jpg")'>
 </div>
 <div class='grid-x large-offset-2 grid-container grid-padding-y grid-padding-x add-padd'>
   <div class='cell large-8'>
-    <div class='grid-x grid-padding-x grid-margin-y team-card' data-equalizer>
       <%
       if (results && results.testimonials) {
       for (let i = 0; i < results.testimonials.length; i++) { 
     %>
+    <div class='grid-x  grid-padding-x grid-margin-y team-card' data-equalizer>
       <div class='cell shrink center out-vc border-right'>
         <div class='in-vc'>
           <img class='team-img' src='<%=results.testimonials[i].image %>'>
@@ -219,8 +219,8 @@ style='background-image:url("img/bg/bg3.jpg")'>
         </div>
       </div>
     </div>
-  </div>
   <%}}%>
+</div>
 </div>
 <div
 id='collaboration'
