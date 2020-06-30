@@ -210,7 +210,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
       </div>
       <div class='cell auto out-vc'>
         <div class='in-vc'>
-          <h5><b><%=results.testimonials[i].name %></b> <%=results.testimonials[i].title ? ` | ${results.testimonials[i].title}` : `` %></h5>
+          <h5><b><%=results.testimonials[i].name %></b> <br/><%=results.testimonials[i].title ? `${results.testimonials[i].title}` : `` %></h5>
           <p class='web-pro-text'><%=results.testimonials[i].smallDesc %></p>
           <p class='web-pro-text'><a data-toggle="panel-<%=i%>">Read More</a></p>
           <div class='hidden-pannel' data-animate="hinge-in-from-top hinge-out-from-top" data-toggler id='panel-<%=i%>'>
