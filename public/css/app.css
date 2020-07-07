@@ -594,8 +594,9 @@ hr.center-ball:before {
 .hidden-pannel {
   display:none;
 }
-.float-right {
+.news-float-right {
   float: right;
+  text-align: right;
 }
 
 
