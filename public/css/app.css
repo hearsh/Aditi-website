@@ -594,6 +594,9 @@ hr.center-ball:before {
 .hidden-pannel {
   display:none;
 }
+.float-right {
+  float: right;
+}
 
 
 /* foundation styles */
