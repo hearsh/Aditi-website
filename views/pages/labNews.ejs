@@ -13,19 +13,25 @@ style='background-image:url("img/bg/bg1.jpg")'>
   <% for (let i = 0; i < results.length; i++) { %>
     <div class='grid-x grid-padding-x grid-padding-y' data-equalizer>
       <% if(i % 2) {%>
-      <div class='medium-3 cell center' data-equalizer-watch>
-        <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+      <div class='medium-3 cell center out-vc' data-equalizer-watch>
+        <div class='in-vc'>
+          <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+        </div>
       </div>
       <% } %>
-      <div class='medium-9 auto' data-equalizer-watch>
-        <h4><%-results[i].name %></h4>
+      <div class='medium-9 auto out-vc' data-equalizer-watch>
+        <div class='in-vc'>
+          <h4><%-results[i].name %></h4>
           <p class="web-pro-text">
             <%=results[i].description %>
           </p>
+        </div>
       </div>
       <% if(!(i % 2)) {%>
-      <div class='medium-3 cell' data-equalizer-watch>
-        <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+      <div class='medium-3 cell out-vc' data-equalizer-watch>
+        <div class='in-vc'>
+          <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+        </div>
       </div>
       <% } %>
     </div>
