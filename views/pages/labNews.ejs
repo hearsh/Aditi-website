@@ -21,8 +21,8 @@ style='background-image:url("img/bg/bg1.jpg")'>
       <% } %>
       <div class='medium-9 auto out-vc' data-equalizer-watch>
         <div class='in-vc'>
-          <h4 class="<% if((i % 2)) { `float-right` } %>"><%-results[i].name %></h4>
-          <p class="web-pro-text <% if((i % 2)) { `float-right` } %>">
+          <h4 class="<% if((i % 2)) { %>float-right<% } %>"><%-results[i].name %></h4>
+          <p class="web-pro-text <% if((i % 2)) { %>float-right<% } %>">
             <%-results[i].description %>
           </p>
         </div>
