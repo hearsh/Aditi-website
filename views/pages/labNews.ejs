@@ -9,19 +9,25 @@ style='background-image:url("img/bg/bg1.jpg")'>
     </h1>
   </div>
 </div>
-<div class='grid-x grid-padding-x grid-container medium-up-3 grid-padding-y add-padd' >
+<div class='grid-container add-padd' >
   <% for (let i = 0; i < results.length; i++) { %>
-    <div class='cell'>
-      <div class='my-card'>
-        <div 
-          class='card-img'
-          style='background-image: url("<%=results[i].image %>");'
-        ></div>
-        <h4><%-results[i].name %></h4>
-        <p class="news-text">
-          <%=results[i].description %>
-        </p>
+    <div class='grid-x grid-padding-x grid-padding-y' data-equalizer>
+      <% if(i % 2) {%>
+      <div class='medium-3 cell center' data-equalizer-watch>
+        <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
       </div>
+      <% } %>
+      <div class='medium-9 auto' data-equalizer-watch>
+        <h4><%-results[i].name %></h4>
+          <p class="web-pro-text">
+            <%=results[i].description %>
+          </p>
+      </div>
+      <% if(!(i % 2)) {%>
+      <div class='medium-3 cell' data-equalizer-watch>
+        <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+      </div>
+      <% } %>
     </div>
   <% } %>
 </div>
