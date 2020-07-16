@@ -33,7 +33,7 @@ body {
 
 /* Top bar styles */
 #header {
-  background-color: #fff;
+  background-color: transparent;
   -webkit-transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -o-transition: all .50s ease-in-out;
@@ -117,6 +117,7 @@ body {
 /* banners */
 .bg-main-header {
   padding: 20vh 0;
+  height: 100vh;
 }
 .bg-img {
   padding: 17vh 0;
