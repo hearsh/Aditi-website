@@ -100,6 +100,9 @@ body {
   height: auto;
 }
 
+.menu {
+  float: right;
+}
 
 .mobile-menu-item {
   padding: 10px;
