@@ -1,50 +1,16 @@
 {
     "pages": [
         {
-            "title": "About",
-            "link": "#about"
-        },
-        {
-            "title": "Research Interest",
-            "link": "#research"
-        },
-        {
-            "title": "Publication",
-            "link": "#publications"
+            "title": "Mission",
+            "link": "#mission"
         },
         {
             "title": "Team",
             "link": "#team"
         },
         {
-            "title": "News",
-            "link": "#news"
-        },
-        {
-            "title": "Lab Culture",
-            "link": "/labfun",
-            "subLink": [
-                {
-                    "title": "Lab fun",
-                    "link": "/labfun#labFun"
-                },
-                {
-                    "title": "Fun things we do",
-                    "link": "/labfun#funThings"
-                },
-                {
-                    "title": "Testimonials",
-                    "link": "/labfun#testimonials"
-                },
-                {
-                    "title": "Collaborations",
-                    "link": "/labfun#collaboration"
-                },
-                {
-                    "title": "Resources",
-                    "link": "/labfun#resources"
-                }
-            ]
+            "title": "Publication",
+            "link": "#publications"
         },
         {
             "title": "Contact",
