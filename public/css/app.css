@@ -117,7 +117,8 @@ body {
 
 /* banners */
 .bg-main-header {
-  padding: 20vh 0;
+  margin-top: 50px;
+  padding: 30vh 0;
   height: 100vh;
 }
 .bg-img {
