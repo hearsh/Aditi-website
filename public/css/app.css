@@ -39,11 +39,11 @@ body {
   -o-transition: all .50s ease-in-out;
   transition: all .50s ease-in-out;
   position: fixed;
-}
-.fixit {
   z-index: 9999;
   top: 0px;
   width: 100%;
+}
+.fixit {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff !important;
 }
