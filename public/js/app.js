@@ -96,3 +96,10 @@ const showThisImg = (img, dir) => {
     popup.open();
   }
 }
+
+const runStartScripts = () => {
+  checkHeader();
+}
+
+
+runStartScripts();
