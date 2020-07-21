@@ -88,8 +88,12 @@ body {
   transition: all .50s ease-in-out;
 }
 
-.social_header {
+.fixit > div > div > div > .social_header {
   color: #fff;
+}
+
+.social_header {
+  color: #439aa5;
 }
 
 .mobile-menu {
