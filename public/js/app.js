@@ -102,7 +102,7 @@ const showThisImg = (img, dir) => {
   }
 }
 
-const runStartScripts = () => {
+const runStartScripts = async () => {
   checkHeader();
 }
 

@@ -88,7 +88,7 @@ body {
   transition: all .50s ease-in-out;
 }
 
-.fixit > div > div > div > .social_header {
+.fixit > div > div > div > a > .social_header {
   color: #439aa5;
 }
 
