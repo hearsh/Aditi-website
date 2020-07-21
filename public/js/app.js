@@ -7,18 +7,23 @@ let imageDir = '';
 
 document.getElementById('mobile-menu-icon').addEventListener('click', mobileMenu)
 
+const addClassName = (id, className) => {
+  const myHeader = document.getElementById(`${id}`);
+    myHeader.className = `${className}`;
+}
+
 function checkHeader(scroll_pos) {
   const host = window.location.hostname;
   if (scroll_pos > 100) {
-    const myHeader = document.getElementById('header');
-    myHeader.className = 'fixit';
+    addClassName('header', 'fixit');
+    addClassName('header-menu-items', 'dropdown menu show-for-medium');
     const logo = document.getElementById('header-logo');
     logo.className = 'header-logo';
     logo.src = `http://${host}/img/logos/small_logo.png`;
     checkMobileMenu(scroll_pos);
   } else {
-    const myHeader = document.getElementById('header');
-    myHeader.className = '';
+    addClassName('header', '');
+    addClassName('header-menu-items', 'dropdown menu show-for-medium white');
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
     logo.src = `http://${host}/img/logos/logo.png`;
