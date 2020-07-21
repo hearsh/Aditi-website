@@ -68,6 +68,10 @@ body {
 	float: right;
 }
 
+.fixit > .top-bar-link {
+  color: #439aa5;
+}
+
 .top-bar-link {
   color: #fff;
   font-weight: bold;
