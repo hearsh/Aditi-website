@@ -68,7 +68,7 @@ body {
 	float: right;
 }
 
-.header-menu-items > li > a > .top-bar-link {
+.header-menu-items > li > .top-bar-link {
   color: #fff;
 }
 
