@@ -125,6 +125,20 @@ body {
   font-size: 1.5em;
 }
 
+.hamburger-menu-items {
+  flex: 1;
+  flex-direction: column;
+}
+
+.hamburger-menu-list {
+  flex: 1;
+  flex-direction: row;
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
+}
+
 /* banners */
 .bg-main-header {
   padding: 40vh 0 !important;
