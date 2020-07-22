@@ -146,6 +146,7 @@ body {
 
 .hamburger-hr {
   width: 50px;
+  float: left;
   background-color: #439aa5;
 }
 
