@@ -126,8 +126,6 @@ body {
   z-index: 9999;
   height: 100%;
   width: 100%;
-  flex: 1;
-  flex-direction: column;
 }
 
 .hamburger-menu-list {
