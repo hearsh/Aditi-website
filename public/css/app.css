@@ -134,6 +134,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
   -webkit-transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -o-transition: all .50s ease-in-out;
