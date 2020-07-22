@@ -32,9 +32,6 @@ body {
 }
 
 /* Top bar styles */
-header {
-  position: relative;
-}
 #header {
   background-color: transparent;
   -webkit-transition: all .50s ease-in-out;
