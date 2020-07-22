@@ -192,6 +192,9 @@ body {
   opacity: 0;
   transition: transform .3s cubic-bezier(.25,.46,.45,.94),opacity .2s cubic-bezier(.25,.25,.75,.75);
 }
+.hide {
+  visibility: hidden;
+}
 
 /* banners */
 .bg-main-header {
