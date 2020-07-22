@@ -120,12 +120,16 @@ body {
 #mobile-menu-icon {
   font-size: 1.5em;
 }
+.show.hamburger-menu-items {
+  visibility: visible;
+}
 
 .hamburger-menu-items {
   position: absolute;
   z-index: 9998;
   height: 100%;
   width: 100%;
+  visibility: hidden;
 }
 
 .hamburger-menu-list {
