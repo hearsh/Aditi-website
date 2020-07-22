@@ -147,8 +147,8 @@ body {
 
 .hamburger-overlay {
   background-color: rgba(0, 0, 0, 0.4);
-  padding-top: 150px;
   padding: 10px;
+  padding-top: 150px;
   height: 100%;
 }
 
