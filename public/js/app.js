@@ -29,7 +29,7 @@ function checkHeader(scroll_pos) {
   }
 }
 
-const hamburgerMenu = () => {
+function hamburgerMenu() {
   const menu = document.getElementById('hamburger-menu');
   if (menu.classList.contains('show')) {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3');
