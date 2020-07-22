@@ -140,6 +140,11 @@ body {
   transition: all .50s ease-in-out;
 }
 
+.hamburger-header {
+  color:#fff;
+  border-bottom: 1px solid #439aa5;
+}
+
 /* banners */
 .bg-main-header {
   padding: 40vh 0 !important;
