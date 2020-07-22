@@ -132,6 +132,7 @@ header {
 }
 
 .hamburger-menu-list {
+  padding-top: 150px;
   flex: 1;
   flex-direction: row;
   -webkit-transition: all .50s ease-in-out;
