@@ -21,6 +21,7 @@
         "hamburger": [
             {
                 "title": "Research Intrest",
+                "image": "img/bg/hb1.jpg",
                 "link": [
                     {
                         "title": "Remapping metabolism upon DNA damage",
@@ -46,6 +47,7 @@
             },
             {
                 "title": "News",
+                "image": "img/bg/hb2.jpg",
                 "link": [
                     {
                         "title": "Recent news",
@@ -59,6 +61,7 @@
             },
             {
                 "title": "Lab culture",
+                "image": "img/bg/hb3.jpg",
                 "link": [
                     {
                         "title": "Testimonials",
