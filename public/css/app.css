@@ -125,7 +125,7 @@ body {
 }
 
 .hamburger-menu-items {
-  position: absolute;
+  position: fixed;
   z-index: 9998;
   height: 100%;
   width: 100%;
