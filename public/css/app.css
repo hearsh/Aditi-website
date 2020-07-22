@@ -141,9 +141,12 @@ body {
 
 .hamburger-header {
   color:#fff;
-  border-bottom: 2px solid #439aa5;
-  border-right-width: 50px;
   font-weight: bold;
+}
+
+.hamburger-hr {
+  width: 50px;
+  background-color: #439aa5;
 }
 
 .hamburger-overlay {
