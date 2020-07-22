@@ -130,9 +130,19 @@ body {
   height: 100%;
   width: 100%;
   visibility: hidden;
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
+}
+
+.show > .hamburger-menu-list {
+  top: 0%;
 }
 
 .hamburger-menu-list {
+  position: relative;
+  top: -100%;
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
