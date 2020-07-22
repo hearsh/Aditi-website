@@ -13,21 +13,23 @@
         </div>
       </div>
       <div class="auto cell out-vc" data-equalizer-watch>
-        <div class="in-vc top-bar-right">
-          <ul class="dropdown menu show-for-medium white" id='header-menu-items' data-dropdown-menu>
-            <% for(let i = 0; i < pages.main.length; i++) { %>
-            <li>
-              <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.main[i].link %>">
-                <%= pages.main[i].title %>
-              </a>
-            </li>
-            <% } %>
-            <li>
-              <a class='top-bar-link'>
-                <i class="fi-list"></i>
-              </a>
-            </li>
-          </ul>
+        <div class="in-vc">
+          <div class='top-bar-right'>
+            <ul class="dropdown menu show-for-medium white" id='header-menu-items' data-dropdown-menu>
+              <% for(let i = 0; i < pages.main.length; i++) { %>
+              <li>
+                <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.main[i].link %>">
+                  <%= pages.main[i].title %>
+                </a>
+              </li>
+              <% } %>
+              <li>
+                <a class='top-bar-link'>
+                  <i class="fi-list"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="small-4 medium-2 cell out-vc"  data-equalizer-watch>
