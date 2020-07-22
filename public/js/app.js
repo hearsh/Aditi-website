@@ -5,7 +5,7 @@ let images = [];
 let imgCount = 0;
 let imageDir = '';
 
-document.getElementById('mobile-menu-icon').addEventListener('click', mobileMenu)
+document.getElementById('hamburger').addEventListener('click', hamburgerMenu)
 
 const addClassName = (id, className) => {
   const myHeader = document.getElementById(`${id}`);
@@ -20,36 +20,21 @@ function checkHeader(scroll_pos) {
     const logo = document.getElementById('header-logo');
     logo.className = 'header-logo';
     logo.src = `http://${host}/img/logos/small_logo.png`;
-    checkMobileMenu(scroll_pos);
   } else {
     addClassName('header', '');
     addClassName('header-menu-items', 'dropdown menu show-for-medium white');
     const logo = document.getElementById('header-logo');
     logo.className = 'top-bar-logo';
     logo.src = `http://${host}/img/logos/logo.png`;
-    checkMobileMenu(scroll_pos);
   }
 }
 
-function checkMobileMenu(scroll_pos) {
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (!mobileMenu) {
-    return false;
-  }
-  if (mobileMenu && scroll_pos > 100) {
-    mobileMenu.style.position = 'fixed';
-    mobileMenu.style.top = '54px';
-  } else if (mobileMenu && scroll_pos <= 100) {
-    mobileMenu.style = '';
-  }
-}
-
-function mobileMenu() {
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (mobileMenu && mobileMenu.classList.contains('hide')) {
-    mobileMenu.className = 'mobile-menu show';
+const hamburgerMenu = () => {
+  const menu = document.getElementById('hamburger-menu');
+  if (menu.classList.contains('show')) {
+    addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3');
   } else {
-    mobileMenu.className = 'mobile-menu hide';
+    addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3 show');
   }
 }
 
