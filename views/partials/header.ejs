@@ -14,22 +14,11 @@
       <div class="auto cell out-vc top-bar-right" data-equalizer-watch>
         <div class="in-vc">
           <ul class="dropdown menu show-for-medium white" id='header-menu-items' data-dropdown-menu>
-            <% for(let i = 0; i < pages.length; i++) { %>
+            <% for(let i = 0; i < pages.main.length; i++) { %>
             <li>
-              <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].link %>">
-                <%= pages[i].title %>
+              <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.main[i].link %>">
+                <%= pages.main[i].title %>
               </a>
-              <% if (pages[i].subLink) { %>
-                <ul class="menu">
-                <% for(let j = 0; j < pages[i].subLink.length; j++) { %>
-                  <li>
-                    <a class='top-bar-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages[i].subLink[j].link %>">
-                      <%= pages[i].subLink[j].title %>
-                    </a>
-                  </li>
-                <% } %>
-                </ul>
-              <% } %>
             </li>
             <% } %>
             <li>
@@ -49,4 +38,20 @@
       </div>
     </div>
   </header>
+  <div class='hamburger-menu-items'>
+    <% for(let i = 0; i < pages.hamburger.length; i++) { %>
+      <div class='hamburger-menu-list'>
+        <div class='grid-x grid-padding-x grid-padding-y'>
+          <div class='cell'>
+            <h4>pages.hamburger[i].title</h4>
+            <ul class="vertical menu">
+              <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
+                <li><a href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">pages.hamburger[i].link[j].title</a></li>
+                <% } %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <% } %>
+  </div>
   <% include ../partials/mobileHeader %>  

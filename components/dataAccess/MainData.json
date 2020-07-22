@@ -1,22 +1,80 @@
 {
-    "pages": [
-        {
-            "title": "Mission",
-            "link": "#mission"
-        },
-        {
-            "title": "Team",
-            "link": "#team"
-        },
-        {
-            "title": "Publication",
-            "link": "#publications"
-        },
-        {
-            "title": "Contact",
-            "link": "#contact"
-        }
-    ],
+    "pages": {
+        "main": [
+            {
+                "title": "Mission",
+                "link": "#mission"
+            },
+            {
+                "title": "Team",
+                "link": "#team"
+            },
+            {
+                "title": "Publication",
+                "link": "#publications"
+            },
+            {
+                "title": "Contact",
+                "link": "#contact"
+            }
+        ],
+        "hamburger": [
+            {
+                "title": "Research Intrest",
+                "link": [
+                    {
+                        "title": "Remapping metabolism upon DNA damage",
+                        "link": ""
+                    },
+                    {
+                        "title": "Decoding the role of DNA in post-mitotic cells",
+                        "link": ""
+                    },
+                    {
+                        "title": "Defining your composite 'biological' age",
+                        "link": ""
+                    },
+                    {
+                        "title": "Collaborators",
+                        "link": ""
+                    },
+                    {
+                        "title": "Resources",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "News",
+                "link": [
+                    {
+                        "title": "Recent news",
+                        "link": ""
+                    },
+                    {
+                        "title": "Science papers blog",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "Lab culture",
+                "link": [
+                    {
+                        "title": "Testimonials",
+                        "link": ""
+                    },
+                    {
+                        "title": "Lab fun",
+                        "link": ""
+                    },
+                    {
+                        "title": "Recommendations",
+                        "link": ""
+                    }
+                ]
+            }
+        ]},
     "researchIntrest": [
         {
             "title": "Remapping metabolism upon DNA damage",
