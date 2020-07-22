@@ -51,7 +51,7 @@
               <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
                 <li>
                   <a class='hamburger-menu-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">
-                    <%=pages.hamburger[i].link[j].title%>
+                    <span class='fi-play'></span><%=pages.hamburger[i].link[j].title%>
                   </a>
                 </li>
                 <% } %>
