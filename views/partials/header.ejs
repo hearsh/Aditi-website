@@ -44,13 +44,13 @@
   <div class='hamburger-menu-items grid-x medium-up-3'>
     <% for(let i = 0; i < pages.hamburger.length; i++) { %>
       <div class='hamburger-menu-list cell' style="background-image: url('<%= pages.hamburger[i].image %>');">
-        <div class='grid-x grid-padding-x grid-padding-y'>
+        <div class='grid-x grid-padding-x grid-padding-y hamburger-overlay'>
           <div class='cell'>
             <h4 class='hamburger-header'><%=pages.hamburger[i].title%></h4>
             <ul class="vertical menu align-left">
               <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
                 <li>
-                  <a href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">
+                  <a class='hamburger-menu-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">
                     <%=pages.hamburger[i].link[j].title%>
                   </a>
                 </li>
