@@ -160,7 +160,7 @@ body {
 .hamburger-menu-link:hover {
   background: rgba(255,255,255,.03);
   color: #c7a567;
-  padding-left: 24.305556%;
+  padding-left: 10.305556%;
 }
 
 .hamburger-menu-link:hover .my-arrow {
@@ -176,7 +176,7 @@ body {
   width: .7rem;
   position: absolute;
   top: 50%;
-  left: 13.88889%;
+  left: 5.88889%;
   -ms-transform: translate(-50px,-.35rem);
   transform: translate(-50px,-.35rem);
   opacity: 0;
