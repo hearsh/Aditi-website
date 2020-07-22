@@ -164,6 +164,7 @@ body {
 .hamburger-menu-link {
   color: #fff;
   position: relative;
+  line-height: 1.3em;
 }
 
 .hamburger-menu-link:hover {
