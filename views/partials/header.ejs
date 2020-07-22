@@ -48,15 +48,17 @@
           <div class='cell'>
             <h4 class='hamburger-header'><%=pages.hamburger[i].title%></h4>
             <hr class='hamburger-hr' />
-            <ul class="vertical menu align-left">
-              <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
-                <li>
-                  <a class='hamburger-menu-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">
-                    <span class='fi-play my-arrow'></span><%=pages.hamburger[i].link[j].title%>
-                  </a>
-                </li>
-                <% } %>
-            </ul>
+            <div>
+              <ul class="vertical menu align-left">
+                <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
+                  <li>
+                    <a class='hamburger-menu-link' href="<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>">
+                      <span class='fi-play my-arrow'></span><%=pages.hamburger[i].link[j].title%>
+                    </a>
+                  </li>
+                  <% } %>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
