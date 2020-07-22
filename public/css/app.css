@@ -153,7 +153,34 @@ body {
 }
 
 .hamburger-menu-link {
-  color: #fff
+  color: #fff;
+  position: relative;
+}
+
+.hamburger-menu-link:hover {
+  background: rgba(255,255,255,.03);
+  color: #c7a567;
+  padding-left: 24.305556%;
+}
+
+.hamburger-menu-link:hover .my-arrow {
+  opacity: 1;
+  -ms-transform: translate(0,-.35rem);
+  transform: translate(0,-.35rem);
+  transition-timing-function: cubic-bezier(.19,1,.22,1),cubic-bezier(.25,.25,.75,.75);
+  transition-duration: .7s,.5s;
+}
+
+.my-arrow {
+  height: .7rem;
+  width: .7rem;
+  position: absolute;
+  top: 50%;
+  left: 13.88889%;
+  -ms-transform: translate(-50px,-.35rem);
+  transform: translate(-50px,-.35rem);
+  opacity: 0;
+  transition: transform .3s cubic-bezier(.25,.46,.45,.94),opacity .2s cubic-bezier(.25,.25,.75,.75);
 }
 
 /* banners */
