@@ -145,20 +145,20 @@ body {
   background-size: cover;
 }
 
-#hm00 {
+#hm-00 {
   -webkit-transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -o-transition: all .50s ease-in-out;
   transition: all .50s ease-in-out;
 }
 
-#hm01 {
+#hm-01 {
   -webkit-transition: all .80s ease-in-out;
   -moz-transition: all .80s ease-in-out;
   -o-transition: all .80s ease-in-out;
   transition: all .80s ease-in-out;
 }
-#hm02 {
+#hm-02 {
   -webkit-transition: all 1.10s ease-in-out;
   -moz-transition: all 1.10s ease-in-out;
   -o-transition: all 1.10s ease-in-out;
