@@ -46,20 +46,6 @@
                 ]
             },
             {
-                "title": "News",
-                "image": "img/bg/hb2.jpg",
-                "link": [
-                    {
-                        "title": "Recent news",
-                        "link": ""
-                    },
-                    {
-                        "title": "Science papers blog",
-                        "link": ""
-                    }
-                ]
-            },
-            {
                 "title": "Lab culture",
                 "image": "img/bg/hb3.jpg",
                 "link": [
@@ -73,6 +59,20 @@
                     },
                     {
                         "title": "Recommendations",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "title": "News",
+                "image": "img/bg/hb2.jpg",
+                "link": [
+                    {
+                        "title": "Recent news",
+                        "link": ""
+                    },
+                    {
+                        "title": "Science papers blog",
                         "link": ""
                     }
                 ]
