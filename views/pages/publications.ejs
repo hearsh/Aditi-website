@@ -23,7 +23,7 @@ style='background-image:url("img/bg/bg1.jpg")'>
         </div>
         <div class="timeline-content <%= direction %>">
           <h2 class="timeline-content-date"><%- results[i].year %></h2>
-          <p><%= results[i].author %>. <a class='blue' href='<%- results[i].link %>'><%- results[i].title %></a> <%= results[i].journal %></p>
+          <p><%- results[i].author %>. <a class='blue' href='<%- results[i].link %>'><%- results[i].title %></a> <%= results[i].journal %></p>
         </div>
       </div>
     <% } %>
