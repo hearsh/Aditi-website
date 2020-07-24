@@ -22,8 +22,8 @@ style='background-image:url("img/bg/bg1.jpg")'>
           <i class="fa fi-book"></i>
         </div>
         <div class="timeline-content <%= direction %>">
-          <h2 class="timeline-content-date"><%- results[i].title %></h2>
-          <p><%= results[i].author %> <%= results[i].journal %></p>
+          <h2 class="timeline-content-date"><%- results[i].year %></h2>
+          <p><%= results[i].author %>. <a class='blue' href='<%- results[i].link %>'><%- results[i].title %></a> <%= results[i].journal %></p>
         </div>
       </div>
     <% } %>

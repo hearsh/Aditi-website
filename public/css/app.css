@@ -704,6 +704,10 @@ hr.center-ball:before {
   text-align: right;
 }
 
+.blue {
+  color: #32485c;
+}
+
 
 /* foundation styles */
 @media print, screen and (min-width: 1500px) {
