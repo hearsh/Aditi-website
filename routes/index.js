@@ -82,4 +82,15 @@ router.get('/research-interests/:data', function(req, res, next) {
   });
 });
 
+router.get('/research-interests', function(req, res, next) {
+  const researchData = dataAccess.getReserachInterest('Research Interest');
+  res.render('pages/researchInterests', {
+    title: 'Gurkar Lab | Research Intrest',
+    tab,
+    pages: dataAccess.getPages(),
+    researchData,
+    dirName
+  });
+});
+
 module.exports = router;
