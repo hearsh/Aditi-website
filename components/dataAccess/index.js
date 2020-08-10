@@ -44,7 +44,9 @@ dataAccess.prototype.getPages = function () {
 }
 
 dataAccess.prototype.getReserachInterest = function (tab) {
-	const researchData = data.researchIntrest.filter(myData =>  tab === myData.title.replace(/\s/g, '_'));
+	const researchData = data.researchIntrest.filter(myData =>  {
+		return tab === myData.title.replace(/\s/g, '_')
+	});
 	return researchData[0];
 }
 
