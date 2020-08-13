@@ -1,7 +1,17 @@
 
+<script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+<script src="<% if(dirName) { %><%=dirName%><%}%>/js/jquery.event.move.js"></script>
+<script src="<% if(dirName) { %><%=dirName%><%}%>/js/jquery.twentytwenty.js"></script>
 <script src="<% if(dirName) { %><%=dirName%><%}%>/js/vendor/jquery.js"></script>
 <script src="<% if(dirName) { %><%=dirName%><%}%>/js/vendor/what-input.js"></script>
 <script src="<% if(dirName) { %><%=dirName%><%}%>/js/vendor/foundation.js"></script>
 <script src="<% if(dirName) { %><%=dirName%><%}%>/js/app.js"></script>
-<script src="<% if(dirName) { %><%=dirName%><%}%>/js/jquery.event.move.js"></script>
-<script src="<% if(dirName) { %><%=dirName%><%}%>/js/jquery.twentytwenty.js"></script>
+<script>
+  $(function(){
+    $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+    $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+  });
+  </script>
