@@ -219,8 +219,11 @@ body {
 }
 
 /* banners */
+.big-bg-img {
+  width: 100%;
+}
+
 .bg-main-header {
-  padding: 40vh 0 !important;
   height: 100vh;
 }
 .bg-img {
