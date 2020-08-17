@@ -226,6 +226,7 @@ body {
 .bg-main-header {
   height: 100vh;
 }
+
 .bg-img {
   padding: 17vh 0;
 	width: 100%;
@@ -236,6 +237,7 @@ body {
   flex-direction: 'row';
   justify-items: 'center';
 }
+
 .bg-center-container {
   max-width: 650px;
   width: 100%;
