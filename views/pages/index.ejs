@@ -73,45 +73,6 @@ style='background-image:url("img/bg/aditi.jpg")'>
     </a>
   </div>
 </div>
-<div
-class='bg-img'
-id='research'
-style='background-image:url("img/bg/bg2.jpg")'>
-  <div class='bg-center-container'>
-    <h1 class='bg-heading'>
-      Research Interests
-    </h1>
-  </div>
-</div>
-<div class='grid-x medium-up-3 grid-padding-x grid-container grid-padding-y add-padd'  data-equalizer>
-  <% for (let i = 0; i < 3; i++) { %>
-    <div class='cell'>
-      <div class='my-card center'>
-        <div 
-          class='card-img my-research-interest'
-          style='background-image: url("<%=results.researchIntrest[i].image %>");'
-        >
-          <div class='my-card-footer' data-equalizer-watch>
-            <h4 class='center bold'><%=results.researchIntrest[i].title %></h4>
-          </div>
-        </div>
-        <a class='animated-arrow'  href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
-          <span class='the-arrow -left'>
-            <span class='shaft'></span>
-          </span>
-          <span class='main'>
-            <span class='text'>
-              Learn More
-            </span>
-            <span class='the-arrow -right'>
-              <span class='shaft'></span>
-            </span>
-          </span>
-        </a>
-      </div>
-    </div>
-  <% } %>
-</div>
 
 <div
 class='bg-img'
@@ -185,51 +146,6 @@ style='background-image:url("img/bg/bg4.jpg")'>
       </div>
     <% } %>
   </div>
-</div>
-
-<div
-class='bg-img'
-id='news'
-style='background-image:url("img/bg/bg5.jpg")'>
-  <div class='bg-center-container'>
-    <h1 class='bg-heading'>
-      Lab News
-    </h1>
-  </div>
-</div>
-
-<div class='grid-x grid-padding-x grid-container medium-up-3 grid-padding-y add-padd' >
-    <% for (let i = 0; i < 2; i++) { %>
-      <div class="marketing-site-content-section">
-        <% if(i % 2) {%>
-        <div class="marketing-site-content-section-img">
-          <img src="<%=results.news[i].image %>" alt="" />
-        </div>
-        <%}%>
-        <div class="marketing-site-content-section-block">
-          <h2 class="marketing-site-content-section-block-header"><%-results.news[i].name%></h2>
-          <p class="marketing-site-content-section-block-subheader web-pro-text subheader"><%-results.news[i].description%></p>
-          <a class='animated-arrow' href="./news">
-            <span class='the-arrow -left'>
-              <span class='shaft'></span>
-            </span>
-            <span class='main'>
-              <span class='text'>
-                View All News
-              </span>
-              <span class='the-arrow -right'>
-                <span class='shaft'></span>
-              </span>
-            </span>
-          </a>
-        </div>
-        <% if(!(i % 2)) {%>
-          <div class="marketing-site-content-section-img">
-            <img src="<%=results.news[i].image %>" alt="" />
-          </div>
-        <%}%>
-      </div>
-    <% } %>
 </div>
 
 <div
