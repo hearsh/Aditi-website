@@ -40,6 +40,7 @@ function hamburgerMenu() {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3 show');
     addClassName('ham-open', 'fi-list hide');
     addClassName('ham-close', 'fi-x');
+    checkHeader(window.scrollY);
   }
 }
 
