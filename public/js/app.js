@@ -35,12 +35,12 @@ function hamburgerMenu() {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3');
     addClassName('ham-open', 'fi-list');
     addClassName('ham-close', 'fi-x hide');
-    checkHeader(0)
+    checkHeader(window.scrollY);
   } else {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3 show');
     addClassName('ham-open', 'fi-list hide');
     addClassName('ham-close', 'fi-x');
-    checkHeader(window.scrollY);
+    checkHeader(0)
   }
 }
 
