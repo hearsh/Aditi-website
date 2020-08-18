@@ -2,7 +2,7 @@
 <% include ../partials/header %>  
 <div
 class='bg-img bg-main-header'
-style='background-image:url("img/bg/bg1.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg1.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Lab Culture
@@ -32,7 +32,7 @@ style='background-image:url("img/bg/bg1.jpg")'>
 <div
 id='labFun'
 class='bg-img'
-style='background-image:url("img/bg/bg2.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Lab Fun
@@ -49,7 +49,7 @@ style='background-image:url("img/bg/bg2.jpg")'>
         <div 
           class='card-img thumbnail my-grid-img'
           onclick='showThisImg("<%=results.labFun[i].images %>", "<%= results.labFun[i].dir %>")'
-          style='background-image: url("img/Labfun/grid-images/<%= results.labFun[i].dir %>/<%=results.labFun[i].images[0] %>");'
+          style='background-image: url("<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/grid-images/<%= results.labFun[i].dir %>/<%=results.labFun[i].images[0] %>");'
         ></div>
         <div class='cell'>
           <p class='my-grid-text'>
@@ -63,7 +63,7 @@ style='background-image:url("img/bg/bg2.jpg")'>
 <div
 id='funThings'
 class='bg-img'
-style='background-image:url("img/bg/bg3.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg3.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Fun things we do
@@ -75,7 +75,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x grid-padding-x' data-equalizer>
       <div class='cell shrink out-vc border-right' data-equalizer-watch>
         <div class='in-vc'>
-          <img src='img/Labfun/fun/gredDunn.jpg' class='fun-img'>
+          <img src='<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/fun/gredDunn.jpg' class='fun-img'>
         </div>
       </div>
       <div class='cell auto out-vc' data-equalizer-watch>
@@ -94,7 +94,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x grid-padding-x' data-equalizer>
       <div class='cell shrink out-vc border-right' data-equalizer-watch>
         <div class='in-vc'>
-          <img src='img/Labfun/fun/radiolab.jpg' class='fun-img'>
+          <img src='<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/fun/radiolab.jpg' class='fun-img'>
         </div>
       </div>
       <div class='cell auto out-vc' data-equalizer-watch>
@@ -113,7 +113,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x grid-padding-x' data-equalizer>
       <div class='cell shrink out-vc border-right' data-equalizer-watch>
         <div class='in-vc'>
-          <img src='img/Labfun/fun/breakthrough.jpg' class='fun-img'>
+          <img src='<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/fun/breakthrough.jpg' class='fun-img'>
         </div>
       </div>
       <div class='cell auto out-vc' data-equalizer-watch>
@@ -132,7 +132,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x grid-padding-x' data-equalizer>
       <div class='cell shrink out-vc border-right' data-equalizer-watch>
         <div class='in-vc'>
-          <img src='img/Labfun/fun/labFunWebsite.jpg' class='fun-img'>
+          <img src='<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/fun/labFunWebsite.jpg' class='fun-img'>
         </div>
       </div>
       <div class='cell auto out-vc' data-equalizer-watch>
@@ -156,7 +156,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x grid-padding-x' data-equalizer>
       <div class='cell shrink out-vc border-right' data-equalizer-watch>
         <div class='in-vc'>
-          <img src='img/Labfun/fun/oliver_sacks.jpeg' class='fun-img'>
+          <img src='<% if(dirName) { %><%=dirName%><%}%>/img/Labfun/fun/oliver_sacks.jpeg' class='fun-img'>
         </div>
       </div>
       <div class='cell auto out-vc' data-equalizer-watch>
@@ -175,10 +175,10 @@ style='background-image:url("img/bg/bg3.jpg")'>
 
 <div class="reveal" id="my-img-modal" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
   <div class='big-grid-img'>
-    <img class='grid-x' id='img-show'/>
-    <div class='arrow-div'>
-      <span onclick='goPrev()' class='fi fi-arrow-left'></span>
-      <span onclick='goNext()' class='fi fi-arrow-right'></span>
+    <div class='grid-x'>
+      <img id='img-show'/>
+      <span onclick='goPrev()' id='arrow-left' class='fi fi-arrow-left my-custom-arrow'></span>
+      <span onclick='goNext()' id='arrow-right' class='fi fi-arrow-right my-custom-arrow'></span>
     </div>
   </div>
   <button class="close-button" data-close aria-label="Close reveal" type="button">
@@ -189,7 +189,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
 <div
 id='testimonials'
 class='bg-img'
-style='background-image:url("img/bg/bg3.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg3.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Testimonials
@@ -205,7 +205,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
     <div class='grid-x  grid-padding-x grid-margin-y team-card' data-equalizer>
       <div class='cell shrink center out-vc border-right'>
         <div class='in-vc'>
-          <img class='team-img' src='<%=results.testimonials[i].image %>'>
+          <img class='team-img' src='<% if(dirName) { %><%=dirName%><%}%>/<%=results.testimonials[i].image %>'>
         </div>
       </div>
       <div class='cell auto out-vc'>

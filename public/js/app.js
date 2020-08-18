@@ -77,7 +77,7 @@ const goPrev = () => {
 
 const changeImg = () => {
   const myDiv = document.getElementById('img-show');
-  myDiv.src = `img/Labfun/grid-images/${imageDir}/${images[imgCount]}`;
+  myDiv.src = `https://aditi-website.herokuapp.com/img/Labfun/grid-images/${imageDir}/${images[imgCount]}`;
 }
 
 const showThisImg = (img, dir) => {

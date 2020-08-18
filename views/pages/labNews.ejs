@@ -2,7 +2,7 @@
 <% include ../partials/header %>  
 <div
 class='bg-img bg-main-header'
-style='background-image:url("img/bg/bg1.jpg")'>
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg1.jpg")'>
   <div class='bg-center-container'>
     <h1 class='bg-heading'>
       Lab News
@@ -11,29 +11,21 @@ style='background-image:url("img/bg/bg1.jpg")'>
 </div>
 <div class='grid-container add-padd' >
   <% for (let i = 0; i < results.length; i++) { %>
-    <div class='grid-x grid-padding-x grid-padding-y' data-equalizer>
+    <div class="marketing-site-content-section">
+      <% if(i % 2) {%>
+      <div class="marketing-site-content-section-img">
+        <img src="<% if(dirName) { %><%=dirName%><%}%>/<%=results[i].image %>" alt="" />
+      </div>
+      <%}%>
+      <div class="marketing-site-content-section-block">
+        <h2 class="marketing-site-content-section-block-header"><%-results[i].name%></h2>
+        <p class="marketing-site-content-section-block-subheader web-pro-text subheader"><%-results[i].description%></p>
+      </div>
       <% if(!(i % 2)) {%>
-      <div class='medium-3 cell center out-vc' data-equalizer-watch>
-        <div class='in-vc'>
-          <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
+        <div class="marketing-site-content-section-img">
+          <img src="<% if(dirName) { %><%=dirName%><%}%>/<%=results[i].image %>" alt="" />
         </div>
-      </div>
-      <% } %>
-      <div class='medium-9 auto out-vc' data-equalizer-watch>
-        <div class='in-vc'>
-          <h3 class="<% if((i % 2)) { %>news-float-right<% } %>"><%-results[i].name %></h3>
-          <p class="web-pro-text <% if((i % 2)) { %>news-float-right<% } %>">
-            <%-results[i].description %>
-          </p>
-        </div>
-      </div>
-      <% if((i % 2)) {%>
-      <div class='medium-3 cell out-vc' data-equalizer-watch>
-        <div class='in-vc'>
-          <img src='<%=results[i].image %>' alt='<%-results[i].name %>'/>
-        </div>
-      </div>
-      <% } %>
+      <%}%>
     </div>
   <% } %>
 </div>

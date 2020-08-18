@@ -4,10 +4,10 @@
       <div class="shrink cell out-vc" data-equalizer-watch>
         <div class="in-vc">
           <i class="fi-list large show-for-small-only" id='mobile-menu-icon'></i>
-          <a href="<% if(dirName) { %><%=dirName%><%}%>" class='show-for-large'>
+          <a href="<% if(dirName) { %><%=dirName%><%}%>" class='show-for-medium-up'>
             <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/logo.png" id='header-logo' class='top-bar-logo'>
           </a>
-          <a href="<% if(dirName) { %><%=dirName%><%}%>" class='show-for-medium-only'>
+          <a href="<% if(dirName) { %><%=dirName%><%}%>" class='show-for-small-only'>
             <img src="<% if(dirName) { %><%=dirName%><%}%>/img/logos/small_logo.png" id='header-logo' class='top-bar-logo small-logo'>
           </a>
         </div>
@@ -44,10 +44,12 @@
   </div>
   <div id='hamburger-menu' class='hamburger-menu-items grid-x medium-up-3'>
     <% for(let i = 0; i < pages.hamburger.length; i++) { %>
-      <div id='hm-0<%= i %>' class='hamburger-menu-list cell' style="background-image: url('<%= pages.hamburger[i].image %>');">
+      <div id='hm-0<%= i %>' class='hamburger-menu-list cell' style="background-image: url('<% if(dirName) { %><%=dirName%><%}%>/<%= pages.hamburger[i].image %>');">
         <div class='grid-x grid-padding-x grid-padding-y hamburger-overlay'>
           <div class='cell'>
-            <h4 class='hamburger-header'><%=pages.hamburger[i].title%></h4>
+            <div class="main-navigation-title">
+              <h4 class='hamburger-header'><%=pages.hamburger[i].title%></h4>
+            </div>
             <div>
               <ul class="vertical menu align-left">
                 <% for(let j = 0; j < pages.hamburger[i].link.length; j++) { %>
