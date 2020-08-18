@@ -35,6 +35,7 @@ function hamburgerMenu() {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3');
     addClassName('ham-open', 'fi-list');
     addClassName('ham-close', 'fi-x hide');
+    checkHeader(0)
   } else {
     addClassName('hamburger-menu', 'hamburger-menu-items grid-x medium-up-3 show');
     addClassName('ham-open', 'fi-list hide');
@@ -92,7 +93,7 @@ const showThisImg = (img, dir) => {
 }
 
 const runStartScripts = async () => {
-  checkHeader();
+  checkHeader(window.scrollY);
 }
 
 
