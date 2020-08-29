@@ -271,6 +271,9 @@ footer {
   padding: 25vh 0 !important;
   height: 60vh;
 }
+.big-bg-img {
+  width: 100%;
+}
 
 .bg-img {
   padding: 17vh 0;
