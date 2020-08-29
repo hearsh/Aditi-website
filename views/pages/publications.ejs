@@ -12,13 +12,34 @@ style='background-image:url("img/bg/bg1.jpg")'>
 <div class='grid-x grid-container add-padd' >
   <%
     for(let i = 0; i < results.length; i++){
+    const authors = results[i].author.split(',');
+    const start = authors.length <= 14 ? authors.length : 10;
+    const end = authors.length > 14 ? authors.length - 4 : false;
   %>
   <div class='cell'>
     <div class='card'>
       <div class='grid-x grid-padding-x'>
         <div class='cell medium-8'>
           <h3><%-results[i].title %></h3>
-          <p>Authors<br/><%-results[i].author %></p>
+          <p>Authors (<%= authors.length %>)<br/>
+            <%
+              for(let j = 0; j < start; j++) {
+            %> 
+            <span class='normal-author'><%-authors[j]%></span>
+            <%
+            }
+            if (end) {
+            %>
+              <span>[...]</span>
+              <%
+                for(let j = end; j < authors.length; j++) {
+              %> 
+              <span class='normal-author'><%-authors[j]%> </span>
+              <%
+              }
+            }
+            %>
+          </p>
         </div>
         <div class='cell medium-4'>
           <h4><%-results[i].journal %></h4>

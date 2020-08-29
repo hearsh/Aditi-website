@@ -351,6 +351,13 @@ footer {
 .publiction-journel {
   font-size: 18px;
 }
+.normal-author {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #b3b3b3;
+  text-decoration-color: #b3b3b3;
+  margin: 0 .8rem .4rem 0;
+  display: inline-block;
+}
 
 /* team styles */
 .team-img {
