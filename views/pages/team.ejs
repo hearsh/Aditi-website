@@ -1,0 +1,35 @@
+<% include ../partials/head %>
+<% include ../partials/header %>  
+<div
+class='bg-img bg-main-header'
+style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg")'>
+  <div class='bg-center-container'>
+    <h1 class='bg-heading'>
+      The Team
+    </h1>
+  </div>
+</div>
+<div class='grid-x grid-padding-x grid-container grid-padding-y add-padd' >
+  <div class='cell medium-8 medium-offset-2'>
+    <% for (let i = 0; i < results.length; i++) { %>
+      <div class='grid-x grid-padding-x grid-margin-y team-card' data-equalizer>
+        <div class='cell shrink center out-vc border-right'>
+          <div class='in-vc'>
+            <img class='team-img' src='<%=results[i].image %>'>
+          </div>
+        </div>
+        <div class='cell auto out-vc'>
+          <div class='in-vc'>
+            <h5><b><%=results[i].name %></b> <%=results[i].title ? ` | ${results[i].title}` : `` %></h5>
+            <p class='web-pro-text'><%=results[i].Description %></p>
+          </div>
+        </div>
+      </div>
+    <% } %>
+  </div>
+</div>
+
+
+<% include ../partials/footer %>
+<% include ../partials/tail %>
+  

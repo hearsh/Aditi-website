@@ -54,6 +54,10 @@ dataAccess.prototype.getAllResearch = function () {
 	return data.researchIntrest;
 }
 
+dataAccess.prototype.getTeamData = function () {
+	return data.team;
+}
+
 dataAccess.prototype.getLabFun = async function () {
 	const returnData = [];
 	const files = await readdir(imageGrid);

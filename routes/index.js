@@ -69,6 +69,22 @@ router.get('/labfun', function(req, res, next) {
   })
 });
 
+/* GET the team page. */
+router.get('/our-team', function(req, res, next) {
+  const results = dataAccess.getTeamData();
+  try {
+    res.render('pages/team', {
+      title: 'Gurkar Lab | Our Team',
+      pages: dataAccess.getPages(),
+      results,
+      dirName
+    });
+  } catch(err) {
+    console.log(err);
+  }
+  
+});
+
 /* GET Research Interest page. */
 router.get('/research-interests/:data', function(req, res, next) {
   let tab = req.params.data;
