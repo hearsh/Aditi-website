@@ -73,7 +73,7 @@ router.get('/labfun', function(req, res, next) {
 router.get('/research-interests/:data', function(req, res, next) {
   let tab = req.params.data ? req.params.data : 'Research_Interests';
   const researchData = dataAccess.getReserachInterest(tab);
-  res.render('pages/researchInterests', {
+  res.render('pages/indivisualReaearch', {
     title: 'Gurkar Lab | Research Intrest',
     tab,
     pages: dataAccess.getPages(),
@@ -84,8 +84,7 @@ router.get('/research-interests/:data', function(req, res, next) {
 
 /* GET Research Interest page. */
 router.get('/research-interests', function(req, res, next) {
-  let tab = 'Research_Interests';
-  const researchData = dataAccess.getReserachInterest(tab);
+  const researchData = dataAccess.getAllReserach();
   res.render('pages/researchInterests', {
     title: 'Gurkar Lab | Research Intrest',
     tab,
