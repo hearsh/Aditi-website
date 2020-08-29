@@ -10,18 +10,18 @@ style='background-image:url("<% if(dirName) { %><%=dirName%><%}%>/img/bg/bg2.jpg
   </div>
 </div>
 <div class='grid-x medium-up-3 grid-padding-x grid-container grid-padding-y add-padd'  data-equalizer>
-  <% for (let i = 0; i < 3; i++) { %>
+  <% for (let i = 0; i < results.length; i++) { %>
     <div class='cell'>
       <div class='my-card center'>
         <div 
           class='card-img my-research-interest'
-          style='background-image: url("<%=results.researchIntrest[i].image %>");'
+          style='background-image: url("<%=results[i].image %>");'
         >
           <div class='my-card-footer' data-equalizer-watch>
-            <h4 class='center bold'><%=results.researchIntrest[i].title %></h4>
+            <h4 class='center bold'><%=results[i].title %></h4>
           </div>
         </div>
-        <a class='animated-arrow'  href="./research-interests/<%=results.researchIntrest[i].title.replace(/\s/g, '_')%>">
+        <a class='animated-arrow'  href="./research-interests/<%=results[i].title.replace(/\s/g, '_')%>">
           <span class='the-arrow -left'>
             <span class='shaft'></span>
           </span>
