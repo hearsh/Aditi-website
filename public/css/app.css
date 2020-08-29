@@ -358,6 +358,17 @@ footer {
   margin: 0 .8rem .4rem 0;
   display: inline-block;
 }
+.etol {
+  margin: 0 .8rem .4rem 0;
+}
+.publications-heading {
+  font-weight: 700;
+}
+.publications-card {
+  margin-bottom: 2.2rem;
+  -webkit-box-shadow: 0 10px 10px #8080801a;
+  box-shadow: 0 10px 10px #8080801a;
+}
 
 /* team styles */
 .team-img {

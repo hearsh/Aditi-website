@@ -17,10 +17,10 @@ style='background-image:url("img/bg/bg1.jpg")'>
     const end = authors.length > 14 ? authors.length - 4 : false;
   %>
   <div class='cell'>
-    <div class='card'>
+    <div class='card publications-card'>
       <div class='grid-x grid-padding-x'>
         <div class='cell medium-8'>
-          <h3><%-results[i].title %></h3>
+          <h4 class='publications-heading'><%-results[i].title %></h4>
           <p>Authors (<%= authors.length %>)<br/>
             <%
               for(let j = 0; j < start; j++) {
@@ -30,7 +30,7 @@ style='background-image:url("img/bg/bg1.jpg")'>
             }
             if (end) {
             %>
-              <span>[...]</span>
+              <span class='etol'>[...]</span>
               <%
                 for(let j = end; j < authors.length; j++) {
               %> 
@@ -42,7 +42,7 @@ style='background-image:url("img/bg/bg1.jpg")'>
           </p>
         </div>
         <div class='cell medium-4'>
-          <h4><%-results[i].journal %></h4>
+          <h5><%-results[i].journal %></h5>
           <p>Published<br/><%-results[i].year %></p>
           <a class='animated-arrow'  href="<%=results[i].link%>">
             <span class='the-arrow -left'>
