@@ -85,13 +85,16 @@ router.get('/research-interests/:data', function(req, res, next) {
 /* GET Research Interest page. */
 router.get('/research-interests', function(req, res, next) {
   const results = dataAccess.getAllResearch();
-  res.render('pages/researchInterests', {
-    title: 'Gurkar Lab | Research Intrest',
-    tab,
-    pages: dataAccess.getPages(),
-    results,
-    dirName
-  });
+  try {
+    res.render('pages/researchInterests', {
+      title: 'Gurkar Lab | Research Interest',
+      pages: dataAccess.getPages(),
+      results,
+      dirName
+    });
+  } catch(e){
+    console.log(e)
+  }
 });
 
 module.exports = router;
