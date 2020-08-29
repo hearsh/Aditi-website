@@ -10,6 +10,39 @@ style='background-image:url("img/bg/bg1.jpg")'>
   </div>
 </div>
 <div class='grid-x grid-container add-padd' >
+  <%
+    for(let i = 0; i < results.length; i++){
+  %>
+  <div class='cell'>
+    <div class='card'>
+      <div class='grid-x grid-padding-x'>
+        <div class='cell medium-8'>
+          <h2><%-results[i].title %></h2>
+          <p>Authors<br/><%-results[i].author %></p>
+        </div>
+        <div class='cell medium-4'>
+          <h2><%-results[i].journal %></h2>
+          <p>Published<br/><%-results[i].year %></p>
+          <a class='animated-arrow'  href="<%=results[i].link%>">
+            <span class='the-arrow -left'>
+              <span class='shaft'></span>
+            </span>
+            <span class='main'>
+              <span class='text'>
+                Learn More
+              </span>
+              <span class='the-arrow -right'>
+                <span class='shaft'></span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% } %>
+</div>
+<div class='grid-x grid-container add-padd' >
   <div class="timeline">
     <% for(let i = 0; i < results.length; i++){
       let direction = '';
