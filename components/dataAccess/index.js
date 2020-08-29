@@ -50,7 +50,7 @@ dataAccess.prototype.getReserachInterest = function (tab) {
 	return researchData[0];
 }
 
-dataAccess.prototype.getAllReserach = function () {
+dataAccess.prototype.getAllResearch = function () {
 	return data.researchIntrest;
 }
 

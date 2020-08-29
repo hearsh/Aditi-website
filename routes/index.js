@@ -84,7 +84,7 @@ router.get('/research-interests/:data', function(req, res, next) {
 
 /* GET Research Interest page. */
 router.get('/research-interests', function(req, res, next) {
-  const results = dataAccess.getAllReserach();
+  const results = dataAccess.getAllResearch();
   res.render('pages/researchInterests', {
     title: 'Gurkar Lab | Research Intrest',
     tab,
