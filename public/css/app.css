@@ -365,6 +365,7 @@ footer {
   font-weight: 500;
 }
 .publications-card {
+  padding: 10px;
   margin-bottom: 2.2rem;
   -webkit-box-shadow: 0 10px 10px #8080801a;
   box-shadow: 0 10px 10px #8080801a;
