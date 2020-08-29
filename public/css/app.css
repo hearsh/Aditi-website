@@ -292,16 +292,6 @@ footer {
   border: 2px solid #fff;
   text-align: center;
   margin: auto;
-  position: absolute;
-  top: 30%;
-  /* Firefox */
-  left: -moz-calc(50% - 325px);
-  /* WebKit */
-  left: -webkit-calc(50% - 325px);
-  /* Opera */
-  left: -o-calc(50% - 325px);
-  /* Standard */
-  left: calc(50% - 325px);
 }
 .main-header {
   max-width: 90%;
