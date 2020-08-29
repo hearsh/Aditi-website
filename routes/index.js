@@ -71,15 +71,20 @@ router.get('/labfun', function(req, res, next) {
 
 /* GET Research Interest page. */
 router.get('/research-interests/:data', function(req, res, next) {
-  let tab = req.params.data ? req.params.data : 'Research_Interests';
+  let tab = req.params.data;
   const researchData = dataAccess.getReserachInterest(tab);
-  res.render('pages/indivisualReaearch', {
-    title: 'Gurkar Lab | Research Intrest',
-    tab,
-    pages: dataAccess.getPages(),
-    researchData,
-    dirName
-  });
+  try {
+    res.render('pages/individualResearch', {
+      title: 'Gurkar Lab | Research Intrest',
+      tab,
+      pages: dataAccess.getPages(),
+      researchData,
+      dirName
+    });
+  } catch(err) {
+    console.log(err);
+  }
+  
 });
 
 /* GET Research Interest page. */
@@ -92,8 +97,8 @@ router.get('/research-interests', function(req, res, next) {
       results,
       dirName
     });
-  } catch(e){
-    console.log(e)
+  } catch(err){
+    console.log(err)
   }
 });
 
