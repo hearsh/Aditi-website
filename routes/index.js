@@ -84,12 +84,12 @@ router.get('/research-interests/:data', function(req, res, next) {
 
 /* GET Research Interest page. */
 router.get('/research-interests', function(req, res, next) {
-  const researchData = dataAccess.getAllReserach();
+  const results = dataAccess.getAllReserach();
   res.render('pages/researchInterests', {
     title: 'Gurkar Lab | Research Intrest',
     tab,
     pages: dataAccess.getPages(),
-    researchData,
+    results,
     dirName
   });
 });
