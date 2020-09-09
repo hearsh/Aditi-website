@@ -92,16 +92,14 @@ body {
   position: absolute;
   z-index: 99;
   width: 50%;
-  height: 100vh;
 }
 
 .left-menu-list {
     /* The important line: */
     background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('../img/bg/hb1.jpeg');
-    width: 80%;
-    height: 200px;
     background-size: cover;
     color:white;
+    height: 100vh;
 }
 
 .fixit > div > div > div > a > .social_header {
