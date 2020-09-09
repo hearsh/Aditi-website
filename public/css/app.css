@@ -88,6 +88,12 @@ body {
   transition: all .50s ease-in-out;
 }
 
+.my-left-menu {
+  position: absolute;
+  top: 100px;
+  z-index: 9;
+}
+
 .fixit > div > div > div > a > .social_header {
   color: #439aa5;
 }

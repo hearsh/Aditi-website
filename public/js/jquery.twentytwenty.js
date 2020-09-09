@@ -63,6 +63,7 @@
 
       var adjustSlider = function(pct) {
         var offset = calcOffset(pct);
+        console.log(offset);
         slider.css((sliderOrientation==="vertical") ? "top" : "left", (sliderOrientation==="vertical") ? offset.ch : offset.cw);
         adjustContainer(offset);
       };
