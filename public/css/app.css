@@ -97,7 +97,7 @@ body {
 
 .left-menu-list {
     /* The important line: */
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 1), url('img/bg/hb1.jpeg'));
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('img/bg/hb1.jpeg');
     width: 80%;
     height: 200px;
     background-size: cover;
