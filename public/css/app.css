@@ -91,7 +91,13 @@ body {
 .my-left-menu {
   position: absolute;
   top: 100px;
-  z-index: 9;
+  z-index: 99;
+  width: 50%;
+}
+
+.left-menu-list {
+  border: 1px solid #fff;
+  color:#fff;
 }
 
 .fixit > div > div > div > a > .social_header {
