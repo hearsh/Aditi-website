@@ -90,14 +90,13 @@ body {
 
 .my-left-menu {
   position: absolute;
-  top: 100px;
   z-index: 99;
   width: 50%;
 }
 
 .left-menu-list {
     /* The important line: */
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('img/bg/hb1.jpeg');
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('../img/bg/hb1.jpeg');
     width: 80%;
     height: 200px;
     background-size: cover;
