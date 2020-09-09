@@ -96,13 +96,12 @@ body {
 }
 
 .left-menu-list {
-  border: 1px solid #fff;
-  color:#fff;
-  max-width: fit-content;
-  font-size: 1.7em;
-  padding: 3px;
-  border-radius: 3px;
-  margin-left: 10%;
+    /* The important line: */
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 1), url('img/bg/hb1.jpeg'));
+    width: 80%;
+    height: 200px;
+    background-size: cover;
+    color:white;
 }
 
 .fixit > div > div > div > a > .social_header {
