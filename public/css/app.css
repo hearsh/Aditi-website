@@ -98,6 +98,10 @@ body {
 .left-menu-list {
   border: 1px solid #fff;
   color:#fff;
+  max-width: fit-content;
+  font-size: 2em;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 .fixit > div > div > div > a > .social_header {
