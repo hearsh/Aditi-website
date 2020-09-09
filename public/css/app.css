@@ -92,6 +92,7 @@ body {
   position: absolute;
   z-index: 99;
   width: 50%;
+  height: 100vh;
 }
 
 .left-menu-list {
