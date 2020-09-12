@@ -89,7 +89,7 @@
       let getMyLeftOrRight = function(offset) {
         const width = +(offset.cw);
         const fullWidth = +(offset.w);
-        console.log(fullWidth, width)
+        console.log(fullWidth, width, offset)
         if (width < (fullWidth / 2)) {
           return 'left';
         } else {
