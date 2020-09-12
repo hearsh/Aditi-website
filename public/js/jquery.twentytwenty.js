@@ -68,10 +68,6 @@
         if (direction === 'left') {
           adjustLeftUnderMenu(offset)
         }
-
-        // if(width < ) {
-
-        // }
         slider.css((sliderOrientation==="vertical") ? "top" : "left", (sliderOrientation==="vertical") ? offset.ch : offset.cw);
         adjustContainer(offset);
       };
@@ -83,7 +79,7 @@
           const leftMenu = document.getElementById('left-menu');
           console.log(leftMenu);
           leftMenu.style.width = `${width}px`;
-          leftMenu.style.height = `${offset.ch}`;
+          leftMenu.style.height = `${offset.h}`;
         }
       }
 
