@@ -77,7 +77,7 @@
       };
 
       let adjustLeftUnderMenu = function(offset) {
-        const width = (+(offset.w)/2) - +(offset.cw);
+        const width = (+(offset.w.replace("px", ""))/2) - +(offset.cw.replace("px", ""));
         console.log(width);
         if (document) {
           const leftMenu = document.getElementById('left-menu');
@@ -87,8 +87,8 @@
       }
 
       let getMyLeftOrRight = function(offset) {
-        const width = +(offset.cw);
-        const fullWidth = +(offset.w);
+        const width = +(offset.cw.replace("px", ""));
+        const fullWidth = +(offset.w.replace("px", ""));
         console.log(fullWidth, width, offset)
         if (width < (fullWidth / 2)) {
           return 'left';
