@@ -80,7 +80,7 @@
         const width = (+(offset.w)/2) - +(offset.cw)
         if (document) {
           const leftMenu = document.getElementById('left-menu');
-          leftMenu.css("width", width)
+          leftMenu.css("width", `${width}px`)
         }
       }
 
