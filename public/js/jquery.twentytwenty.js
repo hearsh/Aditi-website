@@ -82,7 +82,7 @@
         if (document) {
           const leftMenu = document.getElementById('left-menu');
           console.log(leftMenu);
-          leftMenu.css("width", `${width}px`)
+          leftMenu.style.width = `${width}px`;
         }
       }
 
