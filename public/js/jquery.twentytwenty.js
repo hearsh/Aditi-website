@@ -64,6 +64,7 @@
       var adjustSlider = function(pct) {
         var offset = calcOffset(pct);
         const direction = getMyLeftOrRight(offset);
+        console.log(direction);
         if (direction === 'left') {
           adjustLeftUnderMenu(offset)
         }
