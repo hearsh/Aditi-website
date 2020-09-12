@@ -83,6 +83,7 @@
           const leftMenu = document.getElementById('left-menu');
           console.log(leftMenu);
           leftMenu.style.width = `${width}px`;
+          leftMenu.style.height = `${offset.ch}`;
         }
       }
 
