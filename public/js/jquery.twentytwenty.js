@@ -64,9 +64,36 @@
       var adjustSlider = function(pct) {
         var offset = calcOffset(pct);
         console.log(offset);
+        const direction = getMyLeftOrRight(offset);
+        if (direction === 'left') {
+          adjustLeftUnderMenu(offset)
+        }
+
+        // if(width < ) {
+
+        // }
         slider.css((sliderOrientation==="vertical") ? "top" : "left", (sliderOrientation==="vertical") ? offset.ch : offset.cw);
         adjustContainer(offset);
       };
+
+      let adjustLeftUnderMenu = function(offset) {
+        const width = (+(offset.w)/2) - +(offset.cw)
+        if (document) {
+          const leftMenu = document.getElementById('left-menu');
+          leftMenu.css("width", width)
+        }
+      }
+
+      let getMyLeftOrRight = function(offset) {
+        const width = +(offset.cw);
+        const fullWidth = +(offset.w);
+        if (width < (fullWidth / 2)) {
+          return 'left';
+        } else {
+          return 'right';
+        }
+        return false
+      }
 
       // Return the number specified or the min/max number if it outside the range given.
       var minMaxNumber = function(num, min, max) {

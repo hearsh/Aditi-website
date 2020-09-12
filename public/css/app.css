@@ -89,17 +89,20 @@ body {
 }
 
 .my-left-menu {
-  position: absolute;
+  position: relative;
   z-index: 99;
   width: 50%;
 }
 
 .left-menu-list {
-    /* The important line: */
-    background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('../img/bg/hb1.jpeg');
-    background-size: cover;
-    color:white;
-    height: 100vh;
+  /* The important line: */
+  opacity: 0;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.0)), url('../img/bg/hb1.jpeg');
+  background-size: cover;
+  max-width: 100%;
+  width: 0;
 }
 
 .fixit > div > div > div > a > .social_header {
