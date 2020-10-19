@@ -1108,3 +1108,13 @@ hr.center-ball:before {
   color: #fff;
   max-width: 400px;
 }
+
+.banner-left {
+  margin-left: 20px;
+  float: left;
+}
+
+.banner-right {
+  margin-right: 20px;
+  float: right;
+}
