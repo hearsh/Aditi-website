@@ -1107,6 +1107,7 @@ hr.center-ball:before {
   border-radius: 3px;
   color: #fff;
   max-width: 400px;
+  padding: 20px;
 }
 
 .banner-left {
