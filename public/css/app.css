@@ -1085,12 +1085,15 @@ hr.center-ball:before {
 .main-banner {
   width: 100%;
   position: relative;
+  
 }
 
 .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
   width: 100%;
-  padding-top: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
