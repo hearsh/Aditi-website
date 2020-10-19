@@ -1092,6 +1092,11 @@ hr.center-ball:before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url('../img/bg/aditi.jpg');
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
 }
 
 .banner-card {
