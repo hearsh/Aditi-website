@@ -1142,9 +1142,13 @@ hr.center-ball:before {
   background-color: #fff !important;
 }
 .my-banner-arrow:hover {
+  color: rgb(224, 224, 224) !important;
+}
+
+.my-banner-arrow:hover > .the-arrow.-left > .my-banner-shaft {
   background-color: rgb(224, 224, 224) !important;
 }
 
-.my-banner-arrow:hover > .my-banner-shaft:before, .my-banner-shaft:after {
+.my-banner-arrow:hover > .the-arrow.-left > .my-banner-shaft:before, .my-banner-arrow:hover > .the-arrow.-left > .my-banner-shaft:after {
   background-color: rgb(224, 224, 224) !important;
 }
