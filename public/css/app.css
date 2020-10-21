@@ -1126,3 +1126,8 @@ hr.center-ball:before {
   margin-right: 50px;
   float: right;
 }
+
+.my-banner-btn {
+  border: 1px solid #fff;
+  color: #fff;
+}
