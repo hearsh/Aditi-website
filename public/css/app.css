@@ -1127,7 +1127,7 @@ hr.center-ball:before {
   float: right;
 }
 
-.my-banner-btn {
+.button.hollow.my-banner-btn {
   border: 1px solid #fff;
   color: #fff;
 }
