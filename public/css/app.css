@@ -1109,7 +1109,7 @@ hr.center-ball:before {
 }
 
 .banner-card {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid #fff;
   border-radius: 3px;
   color: #fff;
@@ -1130,4 +1130,5 @@ hr.center-ball:before {
 .button.hollow.my-banner-btn {
   border: 1px solid #fff;
   color: #fff;
+
 }
