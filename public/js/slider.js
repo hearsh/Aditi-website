@@ -10,6 +10,18 @@ const setCount = (num) => {
   count = num;
 }
 
+const unHignlightBtn = (className) => {
+  var divsToHide = document.getElementsByClassName(`${className}`); //divsToHide is an array
+  for(var i = 0; i < divsToHide.length; i++){
+      divsToHide[i].className = "slider-btn";
+  }
+}
+
+const changeBtnHighlight = (num) => {
+  const btn = document.getElementById(`slider-0${num}`);
+  btn.className = 'slider-btn active';
+}
+
 const hideAllCards = (className) => {
   var divsToHide = document.getElementsByClassName(`${className}`); //divsToHide is an array
   for(var i = 0; i < divsToHide.length; i++){
@@ -27,6 +39,8 @@ const changeSlider = (num) => {
   const slider = document.getElementById('banner-01');
   slider.style.backgroundImage = `url('./img/bg/${sliderVals[count].bg}')`;
   hideAllCards('banner-card');
+  unHignlightBtn('slider-btn')
+  changeBtnHighlight(count);
   $(`#${sliderVals[count].card}`).fadeIn();
   count = count + 1;
   return;

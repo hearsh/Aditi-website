@@ -1191,6 +1191,10 @@ hr.center-ball:before {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+.slider-btn.active {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .slider-btn-div {
   margin: 10px;
 }
@@ -1233,3 +1237,5 @@ hr.center-ball:before {
 .white-link:hover {
   color: #cacaca;
 }
+
+
