@@ -1,41 +1,87 @@
 <% include ../partials/head %>
 <% include ../partials/header %>  
 
-<div class='main-banner'>
-  <div class='banner'>
-    <div class='banner-card banner-left'>
-      <h4>UNCOVERING CELLULAR RESPONSES TO GENOTOXIC STRESS</h4>
-      <a class='animated-arrow my-banner-arrow' href='./Aditi-Gurkar'>
-        <span class='the-arrow -left'>
-          <span class='shaft my-banner-shaft'></span>
-        </span>
-        <span class='main'>
-          <span class='text'>
-            Research Interest
-          </span>
-          <span class='the-arrow -right'>
-            <span class='shaft my-banner-shaft'></span>
-          </span>
-        </span>
-      </a>
-      <br/>
-      <a class='animated-arrow my-banner-arrow' href='./Aditi-Gurkar'>
-        <span class='the-arrow -left'>
-          <span class='shaft my-banner-shaft'></span>
-        </span>
-        <span class='main'>
-          <span class='text'>
-            Collaboration
-          </span>
-          <span class='the-arrow -right'>
-            <span class='shaft my-banner-shaft'></span>
-          </span>
-        </span>
-      </a>
+<div class='main-banner' id='main-slider'>
+  <% include ../partials/slider %>  
+</div>
+<div class='bark-bg-img'>
+  <div class='dark-bg'>
+    <div class='grid-x grid-padding-x grid-container grid-padding-y add-extra-padd ' id='mission'>
+      <div class='medium-8 large-8 medium-offset-2 large-offset-2 cell out-vc'>
+        <div class='grid-x'>
+          <div class='cell small-12'>
+            <h2 class='center'>Mission</h2>
+            <hr class='my-hr'/>
+            <p class='web-pro-text'>
+              Majority of individuals over the age of 65 years suffer from at least two chronic
+              degenerative diseases- neurodegeneration, cardiovascular disease, diabetes, cancer etc.
+              These chronic diseases of the elderly consume an increasingly large fraction of our health care
+              costs and rob individuals of their independence and quality of life. The Gurkar lab is interested
+              in defining the molecular mechanisms that drive aging in response to DNA damage, which
+              accumulates in all of us over time.
+            </p>
+            <h4 class='center my-small-h4 '>
+              <em>“We’ve put more effort into helping folks reach old age than into helping them enjoy it.” - Frank Howard Clark</em>
+              <br/>
+              The Gurkar lab wants to change this.
+            </h4>
+            <hr class='my-hr'/>
+            <div class='center'>
+              <button class='button my-special-button'>
+                Watch a Ted Talk
+              </button>
+            </div>
+            <hr class='my-hr'/>
+          </div>
+          <div class='cell small-12 add-padd'>
+            <h2 class='center'>About Aditi Gurkar</h2>
+            <p class='web-pro-text'>
+              Aditi U. Gurkar is an Assistant Professor in the Aging Institute, Division of Geriatric Medicine at the University of Pittsburgh. She recieved her Ph.D. at BU Medical school and her postodoctoral fellowship at MGH/Harvard Medical School and The Scripps Research Institute. She has long been interested in DNA damage induced rewiring of metabolic circuitry that drives age-related pathologies and how one can therapeutically target it to delay aging.
+            </p>
+            <div class='center'>
+              <a class='animated-arrow my-banner-arrow' href='./Aditi-Gurkar'>
+                <span class='the-arrow -left'>
+                  <span class='shaft my-banner-shaft'></span>
+                </span>
+                <span class='main'>
+                  <span class='text'>
+                    Learn More
+                  </span>
+                  <span class='the-arrow -right'>
+                    <span class='shaft my-banner-shaft'></span>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class='cell small-12 add-padd'>
+            <h2 class='center'>Contact</h2>
+            <hr class='my-hr' />
+            <div class='grid-x grid-padding-x grid-container medium-up-2 grid-padding-y add-padd' data-equalizer>
+              <div class='cell out-vc' data-equalizer-watch>
+                <div class='in-vc'>
+                  <h5>Phone: <a href="tel:+1(412) 624-7494" class='white-link'>(412) 624-7494</a><br/>
+                    Email: <a href="mailto:agurkar1@pitt.edu" class='white-link'>agurkar1@pitt.edu</a></h5>
+                  <h5>Administrative Assistant: Kathy Brickett</h5>
+                  <h5>Phone: <a href="tel:+1(412) 864-2507" class='white-link'>(412) 864-2507</a><br/>
+                    E-mail: <a href="mailto:kab389@pitt.edu" class='white-link'>kab389@pitt.edu</a></h5>
+                </div>
+              </div>
+              <div class='cell out-vc' data-equalizer-watch>
+                <div class='in-vc'>
+                  <div class="responsive-embed widescreen">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.052495234886!2d-79.96121548470397!3d40.429836479363495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f19ca4e5cdfd%3A0x9b228e7fd9da8772!2sGurkar+Lab!5e0!3m2!1sen!2sus!4v1507475234222" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class='grid-x grid-padding-x grid-container grid-padding-y add-padd' id='mission' data-equalizer>
+<!-- <div class='grid-x grid-padding-x grid-container grid-padding-y add-padd' id='mission' data-equalizer>
   <div class='medium-6 large-7 cell out-vc'  data-equalizer-watch>
     <div class='in-vc'>
       <h3 class='center'>Mission</h3>
@@ -127,7 +173,7 @@ style='background-image:url("img/bg/bg3.jpg")'>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <% include ../partials/footer %>
 <% include ../partials/tail %>

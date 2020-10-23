@@ -1,0 +1,34 @@
+<div class='banner' id='banner-01'>
+  <div class='banner-overlay'>
+    <% for(let i = 0; i < pages.hamburger.length; i++) {  %>
+    <div class='banner-card <% if (i % 2 === 0) { %>banner-left <% } else { %> banner-right <% } %> banner-hide' id='card-0<%=i + 1 %>'>
+      <h4>UNCOVERING CELLULAR RESPONSES TO GENOTOXIC STRESS</h4>
+      <% for(let j = 0; j < pages.hamburger[i].link.length; j++) {  %>
+      <a class='animated-arrow my-banner-arrow' href='<% if(dirName) { %><%=dirName%><%}%><%= pages.hamburger[i].link[j].link %>'>
+        <span class='the-arrow -left'>
+          <span class='shaft my-banner-shaft'></span>
+        </span>
+        <span class='main'>
+          <span class='text'>
+            <%= pages.hamburger[i].link[j].title %>
+          </span>
+          <span class='the-arrow -right'>
+            <span class='shaft my-banner-shaft'></span>
+          </span>
+        </span>
+      </a>
+      <br/>
+      <% } %>
+    </div>
+    <% } %>
+    <div class='slider-buttons'>
+      <% for(let i = 0; i < pages.hamburger.length; i++) {  %>
+        <div class='slider-btn-div'>
+          <button class='slider-btn' onclick='changeSlider("<%=i %>")'>
+            <span ></span>
+          </button>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</div>

@@ -799,6 +799,9 @@ hr.center-ball:before {
 .add-padd {
   padding: 20px 0;
 }
+.add-extra-padd {
+  padding: 50px 0;
+}
 .center {
   text-align: center;
 }
@@ -1085,23 +1088,37 @@ hr.center-ball:before {
 .main-banner {
   width: 100%;
   position: relative;
-  
+  min-height: 100vh;
+  background-color: rgb(0,0,0);
 }
 
-.banner {
+.banner-hide {
+  display:none;
+}
+
+.banner-overlay {
+  background-color: rgba(0,0,0,0.2.5);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.banner {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../img/bg/aditi.jpg');
   -webkit-transition: all .50s ease-in-out;
   -moz-transition: all .50s ease-in-out;
   -o-transition: all .50s ease-in-out;
   transition: all .50s ease-in-out;
+}
+
+#banner-01 {
+  background-image: url('../img/bg/aditi.jpg');
 }
 
 .banner > .animated-arrow {
@@ -1109,7 +1126,7 @@ hr.center-ball:before {
 }
 
 .banner-card {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
   border-radius: 3px;
   color: #fff;
@@ -1125,15 +1142,16 @@ hr.center-ball:before {
 .banner-right {
   margin-right: 50px;
   float: right;
+  align-self: flex-end;
 }
 
 .button.hollow.my-banner-btn {
   border: 1px solid #fff;
   color: #fff;
-
 }
 .my-banner-arrow {
   color: #fff !important;
+  margin-bottom: 20px;
 }
 .my-banner-shaft {
   background-color: #fff !important;
@@ -1151,4 +1169,67 @@ hr.center-ball:before {
 
 .my-banner-arrow:hover > .the-arrow.-left > .my-banner-shaft:before, .my-banner-arrow:hover > .the-arrow.-left > .my-banner-shaft:after {
   background-color: rgb(224, 224, 224) !important;
+}
+
+.slider-buttons {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slider-btn {
+  height: 10px;
+  width: 30px;
+  border-radius: 5px;;
+  background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.slider-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.slider-btn-div {
+  margin: 10px;
+}
+
+.dark-bg {
+  background-color: rgba(0,0,0,.9);
+  color: #fff;
+}
+
+.bark-bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('../img/bg/long_bg.jpg');
+  -webkit-transition: all .50s ease-in-out;
+  -moz-transition: all .50s ease-in-out;
+  -o-transition: all .50s ease-in-out;
+  transition: all .50s ease-in-out;
+}
+
+.my-hr {
+  border-bottom: 1px solid #cacaca;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.my-special-button {
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.white-link {
+  color: #fff;
+}
+
+.white-link:hover {
+  color: #cacaca;
 }
